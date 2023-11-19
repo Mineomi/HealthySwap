@@ -1,0 +1,242 @@
+## Debug Indexer Start ###
+## Debug Rename Start ##
+tsConfig files found: 
+[{"$mid":1,"external":"file:///c%3A/Users/mineo/Desktop/HealthySwap/healthy-swap/tsconfig.json","path":"/c:/Users/mineo/Desktop/HealthySwap/healthy-swap/tsconfig.json","scheme":"file"}]
+tsConfigs: 
+{"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\tsconfig.json":{"config":{"compileOnSave":false,"compilerOptions":{"baseUrl":"./","outDir":"./dist/out-tsc","forceConsistentCasingInFileNames":true,"strict":true,"noImplicitOverride":true,"noPropertyAccessFromIndexSignature":true,"noImplicitReturns":true,"noFallthroughCasesInSwitch":true,"sourceMap":true,"declaration":false,"downlevelIteration":true,"experimentalDecorators":true,"moduleResolution":"node","importHelpers":true,"target":"es2022","module":"es2020","lib":["es2018","dom"],"useDefineForClassFields":false},"angularCompilerOptions":{"enableI18nLegacyMessageIdFormat":false,"strictInjectionParameters":true,"strictInputAccessModifiers":true,"strictTemplates":true}},"configPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\tsconfig.json"}}
+## Debug Indexer End ###
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+## Debug Rename Start ##
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+## Debug Rename Start ##
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app","file":"tab1","stub":"tab1","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1"}
+
+inputResult: convertToKcal
+
+newStub: convert-to-kcal
+
+---
+find related glob: 
+src/app/**/*
+
+---
+renameFolder: false
+
+filesToMove: 
+[]
+
+---
+The component class file must use the same file naming convention as 'tab1' for this process to run.
+
+---
+## Debug Rename Start ##
+
+---
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+
+---
+## Debug Rename Start ##
+
+---
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app","file":"tab1","stub":"tab1","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1"}
+
+inputResult: tab4
+
+newStub: tab4
+
+---
+find related glob: 
+src/app/**/*
+
+---
+renameFolder: false
+
+filesToMove: 
+[]
+
+---
+The component class file must use the same file naming convention as 'tab1' for this process to run.
+
+---
+## Debug Rename Start ##
+
+---
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1","file":"tab1-routing.module.ts","stub":"tab1-routing","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1-routing.module.ts"}
+
+inputResult: convertToKcal-routing
+
+newStub: convert-to-kcal-routing
+
+---
+find related glob: 
+src/app/tab1/**/*
+
+---
+renameFolder: false
+
+filesToMove: 
+[{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1-routing.module.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/convert-to-kcal-routing.module.ts","isCoreConstruct":true}]
+
+---
+fileMoveJobs: 
+[{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1-routing.module.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\convert-to-kcal-routing.module.ts","isDir":false,"originalClassName":"Tab1PageRoutingModule","newClassName":"ConvertToKcalRoutingModule","additionalEdits":{}}]
+
+---
+## Debug Rename Completed ##
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1","file":"tab1.module.ts","stub":"tab1","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.module.ts"}
+
+inputResult: convertToKcal
+
+newStub: convert-to-kcal
+
+---
+find related glob: 
+src/app/tab1/**/*
+
+---
+renameFolder: true
+
+filesToMove: 
+[{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.module.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/convert-to-kcal.module.ts","isCoreConstruct":true},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.html","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.html","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.scss","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.scss","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.spec.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.spec.ts","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.ts","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/convert-to-kcal-routing.module.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/convert-to-kcal-routing.module.ts","isCoreConstruct":true}]
+
+---
+fileMoveJobs: 
+[{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.module.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\convert-to-kcal.module.ts","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.html","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\tab1.page.html","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.scss","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\tab1.page.scss","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.spec.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\tab1.page.spec.ts","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\tab1.page.ts","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\convert-to-kcal-routing.module.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\convert-to-kcal\\convert-to-kcal-routing.module.ts","isDir":false,"originalClassName":"Tab1PageModule","newClassName":"ConvertToKcalModule","additionalEdits":{}}]
+
+---
+## Debug Rename Completed ##
+
+---
+## Debug Rename Start ##
+
+---
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+
+---
+## Debug Rename Start ##
+
+---
+setRenameDetails returned false, stopping.
+## Debug Rename End ##
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal","file":"tab1.page.spec.ts","stub":"tab1.page.spec.ts","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.spec.ts"}
+
+inputResult: convertToKcal.page.spec.ts
+
+newStub: convert-to-kcal-page.spec.ts
+
+---
+find related glob: 
+src/app/convert-to-kcal/**/*
+
+---
+renameFolder: false
+
+filesToMove: 
+[]
+
+---
+The component class file must use the same file naming convention as 'tab1.page.spec.ts' for this process to run.
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal","file":"tab1.page.spec.ts","stub":"tab1.page.spec.ts","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/convert-to-kcal/tab1.page.spec.ts"}
+
+inputResult: convertToKcal
+
+newStub: convert-to-kcal
+
+---
+find related glob: 
+src/app/convert-to-kcal/**/*
+
+---
+renameFolder: false
+
+filesToMove: 
+[]
+
+---
+The component class file must use the same file naming convention as 'tab1.page.spec.ts' for this process to run.
+
+---
+## Debug Rename Start ##
+
+---
+projectRoot: c:/Users/mineo/Desktop/HealthySwap/healthy-swap
+
+originalFileDetails:
+{"path":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal","file":"converToKcal.module.ts","stub":"converToKcal","filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/converToKcal.module.ts"}
+
+inputResult: tab1
+
+newStub: tab1
+
+---
+find related glob: 
+src/app/converToKcal/**/*
+
+---
+renameFolder: true
+
+filesToMove: 
+[{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/converToKcal.module.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.module.ts","isCoreConstruct":true},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/tab1.page.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.ts","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/tab1.page.spec.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.spec.ts","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/tab1.page.scss","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.scss","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/tab1.page.html","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/tab1.page.html","isCoreConstruct":false},{"filePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/converToKcal-routing.module.ts","newFilePath":"c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/converToKcal-routing.module.ts","isCoreConstruct":true}]
+
+---
+fileMoveJobs: 
+[{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\converToKcal.module.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.module.ts","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\tab1.page.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.ts","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\tab1.page.spec.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.spec.ts","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\tab1.page.scss","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.scss","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\tab1.page.html","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\tab1.page.html","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}},{"sourcePath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\converToKcal\\converToKcal-routing.module.ts","targetPath":"c:\\Users\\mineo\\Desktop\\HealthySwap\\healthy-swap\\src\\app\\tab1\\converToKcal-routing.module.ts","isDir":false,"originalClassName":"ConvertToKcalModule","newClassName":"Tab1Module","additionalEdits":{}}]
+
+---
+## Debug Rename Completed ##

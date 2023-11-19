@@ -1,0 +1,7 @@
+{
+  "name": "HealthySwap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

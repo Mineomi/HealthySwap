@@ -1,0 +1,1017 @@
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+    
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                                  |  Raw Size
+vendor.js                                                                                               | vendor                                 |   3.76 MB |
+polyfills.js                                                                                            | polyfills                              | 336.66 kB |
+styles.css, styles.js                                                                                   | styles                                 | 292.55 kB |
+main.js                                                                                                 | main                                   |  15.75 kB |
+runtime.js                                                                                              | runtime                                |  14.11 kB |
+
+| Initial Total                          |   4.40 MB
+
+Lazy Chunk Files                                                                                        | Names                                  |  Raw Size
+polyfills-core-js.js                                                                                    | polyfills-core-js                      | 152.18 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js                                             | -                                      | 143.52 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                                                 | -                                      |  93.13 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                                                  | -                                      |  77.81 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                                                  | -                                      |  77.50 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js                                               | -                                      |  74.58 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js                                               | -                                      |  64.53 kB |
+common.js                                                                                               | common                                 |  62.20 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                                                  | -                                      |  62.08 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                                                | -                                      |  58.36 kB |
+default-node_modules_ionic_core_dist_esm_data-44d9e816_js.js                                            | -                                      |  55.98 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js                                            | -                                      |  53.27 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                                                  | -                                      |  52.93 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                                                  | -                                      |  50.72 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                                                 | -                                      |  43.94 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js                                              | -                                      |  40.64 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js                                               | -                                      |  38.88 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                                                  | -                                      |  37.46 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js                                              | -                                      |  36.83 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                                                 | -                                      |  35.43 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                                                | -                                      |  34.78 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                                                  | -                                      |  34.19 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js                                          | -                                      |  34.04 kB |
+default-node_modules_ionic_core_components_animation_js.js                                              | ios-transition-js                      |  32.74 kB |
+node_modules_ionic_core_components_ios_transition_js.js                                                 | ios-transition-js                      |  32.36 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                                                | -                                      |  32.29 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js                                           | -                                      |  32.11 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js                                            | -                                      |  28.25 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js                                              | -                                      |  27.21 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js                                               | -                                      |  27.19 kB |
+node_modules_ionic_core_dist_esm_input-shims-d0c93e5d_js.js                                             | input-shims-d0c93e5d-js                |  27.02 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                                                  | -                                      |  26.67 kB |
+polyfills-dom.js                                                                                        | polyfills-dom                          |  26.61 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js                                        | -                                      |  24.67 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js                                           | -                                      |  21.60 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js                                           | -                                      |  20.74 kB |
+node_modules_ionic_core_dist_esm_ion-datetime-button_entry_js.js                                        | -                                      |  18.62 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js                                 | -                                      |  18.56 kB |
+node_modules_stencil_core_internal_client_shadow-css_js.js                                              | shadow-css-js                          |  18.53 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                                                | -                                      |  17.63 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js                                            | -                                      |  15.41 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                                                 | -                                      |  14.91 kB |
+default-node_modules_ionic_core_dist_esm_form-controller-64edeaad_js-node_modules_ionic_core_-4567a5.js | -                                      |  14.59 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js                                              | -                                      |  13.81 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js                                      | -                                      |  13.41 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                                                  | -                                      |  13.25 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                                                  | -                                      |  10.29 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js                                             | -                                      |   9.05 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                                                | -                                      |   8.52 kB |
+src_app_tabs_tabs_module_ts.js                                                                          | tabs-tabs-module                       |   8.07 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                                                   | -                                      |   7.87 kB |
+src_app_convert-to-kcal_convert-to-kcal_module_ts.js                                                    | convert-to-kcal-convert-to-kcal-module |   7.66 kB |
+src_app_tab3_tab3_module_ts.js                                                                          | tab3-tab3-module                       |   7.34 kB |
+src_app_tab2_tab2_module_ts.js                                                                          | tab2-tab2-module                       |   7.34 kB |
+node_modules_ionic_core_dist_esm_index-f0cc4e14_js.js                                                   | index-f0cc4e14-js                      |   6.84 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js                                          | -                                      |   6.24 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js                                               | -                                      |   5.49 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                                                    | -                                      |   4.63 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js                                               | -                                      |   3.24 kB |
+node_modules_ionic_core_components_md_transition_js.js                                                  | md-transition-js                       |   2.98 kB |
+node_modules_ionic_core_dist_esm_status-tap-9ce68758_js.js                                              | status-tap-9ce68758-js                 |   2.91 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                                                   | -                                      |   1.79 kB |
+
+Build at: 2023-11-18T18:21:55.444Z - Hash: 5caaa9c8c3244fcc - Time: 5935ms
+
+** Angular Live Development Server is listening on 192.168.1.108:4200, open your browser on http://192.168.1.108:4200/ **
+
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.01 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:25:47.847Z - Hash: 79373471fb07d915 - Time: 1344ms
+
+./src/app/tabs/tabs-routing.module.ts:11:24-75 - Error: Module not found: Error: Can't resolve '../convert-to-kcal/convert-to-kcal.module' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\tabs'
+
+Error: [96msrc/app/tabs/tabs-routing.module.ts[0m:[93m12[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../convert-to-kcal/convert-to-kcal.module' or its corresponding type declarations.
+
+[7m12[0m         loadChildren: () => import('../convert-to-kcal/convert-to-kcal.module').then(m => m.ConvertToKcalModule)
+[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               | Raw Size
+runtime.js                                        | runtime                             | 14.11 kB |
+
+Lazy Chunk Files                                  | Names                               | Raw Size
+src_app_tabs_tabs_module_ts.js                    | tabs-tabs-module                    |  8.07 kB |
+src_app_convert-to-kcal_converToKcal_module_ts.js | convert-to-kcal-converToKcal-module |  7.65 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:25:51.967Z - Hash: 8bf5358df700b6f1 - Time: 1374ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               | Raw Size
+runtime.js                                        | runtime                             | 14.11 kB |
+
+Lazy Chunk Files                                  | Names                               | Raw Size
+src_app_convert-to-kcal_converToKcal_module_ts.js | convert-to-kcal-converToKcal-module |  4.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:26:05.302Z - Hash: cb80f38dec953484 - Time: 679ms
+
+./src/app/convert-to-kcal/converToKcal.module.ts:8:0-78 - Error: Module not found: Error: Can't resolve './convert-to-kcal-routing.module' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\convert-to-kcal'
+
+Error: [96msrc/app/convert-to-kcal/converToKcal.module.ts[0m:[93m8[0m:[93m44[0m - [91merror[0m[90m TS2307: [0mCannot find module './convert-to-kcal-routing.module' or its corresponding type declarations.
+
+[7m8[0m import { ConvertToKcalRoutingModule } from './convert-to-kcal-routing.module';
+[7m [0m [91m                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/convert-to-kcal/converToKcal.module.ts[0m:[93m11[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'ion-header' is not a known element:
+1. If 'ion-header' is an Angular component, then verify that it is part of this module.
+2. If 'ion-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <ion-header [translucent]="true">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m1[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'translucent' since it isn't a known property of 'ion-header'.
+1. If 'ion-header' is an Angular component and it has 'translucent' input, then verify that it is part of this module.
+2. If 'ion-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m1[0m <ion-header [translucent]="true">
+[7m [0m [91m            ~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m2[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'ion-toolbar' is not a known element:
+1. If 'ion-toolbar' is an Angular component, then verify that it is part of this module.
+2. If 'ion-toolbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m   <ion-toolbar>
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m3[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'ion-title' is not a known element:
+1. If 'ion-title' is an Angular component, then verify that it is part of this module.
+2. If 'ion-title' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m3[0m     <ion-title>
+[7m [0m [91m    ~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m9[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'ion-content' is not a known element:
+1. If 'ion-content' is an Angular component, then verify that it is part of this module.
+2. If 'ion-content' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m <ion-content [fullscreen]="true">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m9[0m:[93m14[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'fullscreen' since it isn't a known property of 'ion-content'.
+1. If 'ion-content' is an Angular component and it has 'fullscreen' input, then verify that it is part of this module.
+2. If 'ion-content' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m <ion-content [fullscreen]="true">
+[7m [0m [91m             ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'ion-header' is not a known element:
+1. If 'ion-header' is an Angular component, then verify that it is part of this module.
+2. If 'ion-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m10[0m   <ion-header collapse="condense">
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m11[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'ion-toolbar' is not a known element:
+1. If 'ion-toolbar' is an Angular component, then verify that it is part of this module.
+2. If 'ion-toolbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m11[0m     <ion-toolbar>
+[7m  [0m [91m    ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'ion-title' is not a known element:
+1. If 'ion-title' is an Angular component, then verify that it is part of this module.
+2. If 'ion-title' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m12[0m       <ion-title size="large">Przelicz</ion-title>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/convert-to-kcal/tab1.page.html[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'app-explore-container' is not a known element:
+1. If 'app-explore-container' is an Angular component, then verify that it is part of this module.
+2. If 'app-explore-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m16[0m   <app-explore-container name="Przelicz"></app-explore-container>
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/convert-to-kcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               | Raw Size
+runtime.js                                        | runtime                             | 14.11 kB |
+
+Lazy Chunk Files                                  | Names                               | Raw Size
+src_app_tabs_tabs_module_ts.js                    | tabs-tabs-module                    |  8.07 kB |
+src_app_convert-to-kcal_converToKcal_module_ts.js | convert-to-kcal-converToKcal-module |  7.63 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:26:07.068Z - Hash: bf10d65c051a5dcc - Time: 692ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-18T18:26:13.868Z - Hash: bf10d65c051a5dcc - Time: 723ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_tabs_tabs_module_ts.js                 | tabs-tabs-module                 |  8.06 kB |
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  7.59 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:26:16.619Z - Hash: c3bb3a8b8272f671 - Time: 1084ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  5.67 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:26:22.399Z - Hash: e3e2aa0ce8967844 - Time: 384ms
+
+Error: [96msrc/app/converToKcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'tab1.page.html'.
+
+[7m5[0m   templateUrl: 'tab1.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  4.38 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:26:47.518Z - Hash: ab1e5116c6f396c6 - Time: 801ms
+
+./src/app/converToKcal/converToKcal-routing.module.ts:3:0-39 - Error: Module not found: Error: Can't resolve './tab1.page' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\converToKcal'
+
+./src/app/converToKcal/converToKcal.module.ts:6:0-39 - Error: Module not found: Error: Can't resolve './tab1.page' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\converToKcal'
+
+Error: [96msrc/app/converToKcal/converToKcal-routing.module.ts[0m:[93m3[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module './tab1.page' or its corresponding type declarations.
+
+[7m3[0m import { Tab1Page } from './tab1.page';
+[7m [0m [91m                         ~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/converToKcal/converToKcal.module.ts[0m:[93m5[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module './tab1.page' or its corresponding type declarations.
+
+[7m5[0m import { Tab1Page } from './tab1.page';
+[7m [0m [91m                         ~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/converToKcal/converToKcal.module.ts[0m:[93m18[0m:[93m17[0m - [91merror[0m[90m NG1010: [0mValue
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_tabs_tabs_module_ts.js                 | tabs-tabs-module                 |  8.06 kB |
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  5.15 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:26:49.971Z - Hash: 7c6e780bb6cac681 - Time: 708ms
+
+Error: [96msrc/app/converToKcal/converToKcal.module.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'Tab1Page' is listed in the declarations of the NgModule 'ConvertToKcalModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m18[0m   declarations: [Tab1Page]
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+  [96msrc/app/converToKcal/converToKcal.page.ts[0m:[93m8[0m:[93m14[0m
+    [7m8[0m export class Tab1Page {
+    [7m [0m [96m             ~~~~~~~~[0m
+    'Tab1Page' is declared here.
+
+
+Error: [96msrc/app/converToKcal/converToKcal.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'tab1.page.html'.
+
+[7m5[0m   templateUrl: 'tab1.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  7.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:27:05.655Z - Hash: 4473abe83067235f - Time: 583ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  7.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:27:07.756Z - Hash: ce46e82a6d4a390e - Time: 822ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:11.849Z - Hash: 099c0b497d3fd0bf - Time: 495ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:32.507Z - Hash: 4b49813381d82c29 - Time: 475ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:39.179Z - Hash: 35db99c6e6c9f116 - Time: 447ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:39.948Z - Hash: abbc53c6725e746c - Time: 452ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:40.684Z - Hash: c7e507dea3ae7bfb - Time: 369ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:41.535Z - Hash: 3d5a9ed1679ec1d6 - Time: 500ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:42.305Z - Hash: 21b472664a881004 - Time: 440ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:43.040Z - Hash: 8093b4535f530c72 - Time: 404ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:43.819Z - Hash: 706418c48ec3221c - Time: 379ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:44.614Z - Hash: 7aeb8be3355c0483 - Time: 488ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:28:45.285Z - Hash: e8243c9cff4edb7b - Time: 341ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-18T18:28:45.907Z - Hash: e8243c9cff4edb7b - Time: 313ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:32:38.462Z - Hash: 64b2390a988733f7 - Time: 488ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:32:53.795Z - Hash: e8243c9cff4edb7b - Time: 383ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:36:33.534Z - Hash: 3475e770c3559a5a - Time: 571ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:37:35.817Z - Hash: e8243c9cff4edb7b - Time: 562ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  4.41 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:42:39.880Z - Hash: 9ee1547d79778ba1 - Time: 961ms
+
+./src/app/converToKcal/converToKcal-routing.module.ts:3:0-47 - Error: Module not found: Error: Can't resolve './converToKcal.page' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\converToKcal'
+
+./src/app/converToKcal/converToKcal.module.ts:6:0-47 - Error: Module not found: Error: Can't resolve './converToKcal.page' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\converToKcal'
+
+Error: [96msrc/app/converToKcal/converToKcal-routing.module.ts[0m:[93m3[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module './converToKcal.page' or its corresponding type declarations.
+
+[7m3[0m import { Tab1Page } from './converToKcal.page';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/converToKcal/converToKcal.module.ts[0m:[93m5[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module './converToKcal.page' or its corresponding type declarations.
+
+[7m5[0m import { Tab1Page } from './converToKcal.page';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/converToKcal/converToKcal.module.ts[0m:[93m18[0m:[93m17[0m - [91merror[0m[90m NG1010: [0mValue
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  7.59 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:42:42.634Z - Hash: 2903c4b8bebd9b58 - Time: 642ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  7.57 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:42:46.458Z - Hash: 3b96462869bf2109 - Time: 337ms
+
+Error: Module not found: Error: Can't resolve 'c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/converToKcal.page.scss?ngResource' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap'
+
+Error: The loader "c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/converToKcal/converToKcal.page.scss" didn't return a string.
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names                            | Raw Size
+runtime.js                                     | runtime                          | 14.11 kB |
+
+Lazy Chunk Files                               | Names                            | Raw Size
+src_app_converToKcal_converToKcal_module_ts.js | converToKcal-converToKcal-module |  5.69 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:42:56.346Z - Hash: 325b6586a5042c99 - Time: 305ms
+
+Error: [96msrc/app/converToKcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.01 kB |
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  5.93 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:43:02.088Z - Hash: 16db450a0b48f432 - Time: 465ms
+
+Error: [96msrc/app/converToKcal/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'Tab1Page' is listed in the declarations of the NgModule 'Tab1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m18[0m   declarations: [Tab1Page]
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m8[0m:[93m14[0m
+    [7m8[0m export class Tab1Page {
+    [7m [0m [96m             ~~~~~~~~[0m
+    'Tab1Page' is declared here.
+
+
+Error: [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tabs_tabs_module_ts.js | tabs-tabs-module |  8.01 kB |
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  4.92 kB |
+
+64 unchanged chunks
+
+Build at: 2023-11-18T18:43:02.870Z - Hash: 2ccc3dcae63cb3e6 - Time: 440ms
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'Tab1Page' is listed in the declarations of the NgModule 'Tab1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m18[0m   declarations: [Tab1Page]
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m8[0m:[93m14[0m
+    [7m8[0m export class Tab1Page {
+    [7m [0m [96m             ~~~~~~~~[0m
+    'Tab1Page' is declared here.
+
+
+Error: [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  3.21 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:10.883Z - Hash: 36e0934a92ce2902 - Time: 395ms
+
+./src/app/tab1/tab1.module.ts:8:0-75 - Error: Module not found: Error: Can't resolve './converToKcal-routing.module' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap\src\app\tab1'
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m8[0m:[93m44[0m - [91merror[0m[90m TS2307: [0mCannot find module './converToKcal-routing.module' or its corresponding type declarations.
+
+[7m8[0m import { ConvertToKcalRoutingModule } from './converToKcal-routing.module';
+[7m [0m [91m                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m11[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  4.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:12.707Z - Hash: cc3ef566fb675057 - Time: 501ms
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'Tab1Page' is listed in the declarations of the NgModule 'Tab1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m18[0m   declarations: [Tab1Page]
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m8[0m:[93m14[0m
+    [7m8[0m export class Tab1Page {
+    [7m [0m [96m             ~~~~~~~~[0m
+    'Tab1Page' is declared here.
+
+
+Error: [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 'converToKcal.page.html'.
+
+[7m5[0m   templateUrl: 'converToKcal.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  4.86 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:30.064Z - Hash: 4f0c6d0e4ef194f4 - Time: 284ms
+
+Error: [96msrc/app/tab1/tab1.module.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'Tab1Page' is listed in the declarations of the NgModule 'Tab1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m18[0m   declarations: [Tab1Page]
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m8[0m:[93m14[0m
+    [7m8[0m export class Tab1Page {
+    [7m [0m [96m             ~~~~~~~~[0m
+    'Tab1Page' is declared here.
+
+
+Error: [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file 't.page.html'.
+
+[7m5[0m   templateUrl: 't.page.html',
+[7m [0m [91m               ~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  7.34 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:30.975Z - Hash: 7154c01b02c82695 - Time: 568ms
+
+Error: Module not found: Error: Can't resolve 'c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/converToKcal.page.scss?ngResource' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap'
+
+Error: The loader "c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/converToKcal.page.scss" didn't return a string.
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  7.34 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:31.547Z - Hash: 11ed4341ade559f5 - Time: 275ms
+
+Error: Module not found: Error: Can't resolve 'c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/converToKcal.page.scss?ngResource' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap'
+
+Error: The loader "c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/converToKcal.page.scss" didn't return a string.
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  7.34 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:32.328Z - Hash: 6af52ebd0d383216 - Time: 307ms
+
+Error: Module not found: Error: Can't resolve 'c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/t.page.scss?ngResource' in 'c:\Users\mineo\Desktop\HealthySwap\healthy-swap'
+
+Error: The loader "c:/Users/mineo/Desktop/HealthySwap/healthy-swap/src/app/tab1/t.page.scss" didn't return a string.
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  7.36 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:43:33.107Z - Hash: 6467d199e8e826d2 - Time: 409ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-18T18:43:33.733Z - Hash: 6467d199e8e826d2 - Time: 334ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  7.34 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:44:22.033Z - Hash: 707234fd6560f74d - Time: 915ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  7.35 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:44:22.743Z - Hash: 2cdd58987313a9e5 - Time: 408ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  7.35 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:44:23.523Z - Hash: d23e3518ebdaba4f - Time: 419ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  7.35 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-18T18:44:24.311Z - Hash: 0e77aaa9338d7f6e - Time: 346ms
+
+√ Compiled successfully.
