@@ -8,10 +8,58 @@
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
+    
+
+
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
+      
     </ion-toolbar>
   </ion-header>
+  <!--
+  1. Input - height
+  2. Input weight
+  3. Przycisk Licz
+  4. Zwraca BMI i w nawiasie w jakim przedziale się mieści
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
+  -->
+  <ion-list>
+    <ion-item>
+      <ion-input
+        label="Wzrost"
+        labelPlacement="floating"
+        [clearOnEdit]="true"
+        placeholder="Wpisz swój wzrost"
+        #height
+      >
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+        label="Waga"
+        labelPlacement="floating"
+        [clearOnEdit]="true"
+        placeholder="Wpisz swoją wagę"
+        #weight
+      >
+      </ion-input>
+    </ion-item>
+
+    <ion-button (click)="calculateBMI(height.value, weight.value)">
+      <ion-icon slot="start" name="calculator"></ion-icon>
+      Policz
+    </ion-button>
+
+    <ion-item>
+      <ion-label>
+        <h2>Twoje BMI:</h2>
+        <p>{{bmi}} {{ bmiRange }}</p>
+      </ion-label>
+    </ion-item>
+  
+    
+  </ion-list>
+
 </ion-content>
