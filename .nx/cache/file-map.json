@@ -5942,15 +5942,15 @@
         },
         {
           "file": ".nx/cache/cloud/verify.lock",
-          "hash": "15066419901649544285"
+          "hash": "11480874039085181707"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "6390701663415900418"
+          "hash": "13499433241679762721"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "17260013981143913714"
+          "hash": "17859297919496571213"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -5985,12 +5985,20 @@
           "hash": "11327696871542222590"
         },
         {
+          "file": ".nx/cache/terminalOutputs/9610474031410971089",
+          "hash": "1959295300262363432"
+        },
+        {
           "file": ".vscode/extensions.json",
           "hash": "354395163955981726"
         },
         {
           "file": ".vscode/settings.json",
           "hash": "1151538777131426085"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "18339204536222363715"
         },
         {
           "file": "capacitor.config.ts",
@@ -6248,11 +6256,11 @@
         },
         {
           "file": "src/app/tab2/tab2.page.html",
-          "hash": "4458261356268746933"
+          "hash": "15777898705776805774"
         },
         {
           "file": "src/app/tab2/tab2.page.scss",
-          "hash": "3244421341483603138"
+          "hash": "17624649841722997133"
         },
         {
           "file": "src/app/tab2/tab2.page.spec.ts",
@@ -6264,7 +6272,7 @@
         },
         {
           "file": "src/app/tab2/tab2.page.ts",
-          "hash": "1649071404575094014",
+          "hash": "6301327398815228075",
           "deps": [
             "npm:@angular/core"
           ]
@@ -6330,7 +6338,7 @@
         },
         {
           "file": "src/app/tabs/tabs.page.html",
-          "hash": "4695129675997095892"
+          "hash": "11924264449008274859"
         },
         {
           "file": "src/app/tabs/tabs.page.scss",
