@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx build app",
-    "startTime": "2023-11-18T17:29:29.890Z",
-    "endTime": "2023-11-18T17:29:56.388Z",
+    "startTime": "2023-11-26T19:41:27.126Z",
+    "endTime": "2023-11-26T19:41:58.572Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "app:build:production",
       "target": "build",
       "projectName": "app",
-      "hash": "1332261734279927889",
-      "startTime": "2023-11-18T17:29:29.899Z",
-      "endTime": "2023-11-18T17:29:56.387Z",
+      "hash": "931164203739668816",
+      "startTime": "2023-11-26T19:41:27.134Z",
+      "endTime": "2023-11-26T19:41:58.571Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

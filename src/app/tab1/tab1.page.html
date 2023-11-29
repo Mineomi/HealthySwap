@@ -13,5 +13,43 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Przelicz"></app-explore-container>
+
+
+
+
+
+  <ion-content color="light">
+    <ion-list [inset]="true">
+      <ion-item-sliding>
+        <ion-item>
+          <ion-icon aria-hidden="true" size="large" name="pizza-outline"></ion-icon>
+          <ion-label><span class="header">Wybierz danie</span></ion-label>
+        </ion-item>
+        
+      </ion-item-sliding>
+  
+      
+  
+      <ion-item-sliding *ngFor="let item of items; let i = index">
+        <ion-item [button]="true" (click)="toggleIngredients(i)">
+          <ion-avatar aria-hidden="true" slot="start">
+            <img class="small-icon" [src]="item.icon" [alt]="item.name" />
+          </ion-avatar>
+          <ion-label>
+            {{ item.name }}
+          </ion-label>
+        </ion-item>
+      
+        
+        <ion-list *ngIf="isOpen[i]">
+          
+          <ion-item *ngFor="let ingredient of item.ingredients">
+            {{ ingredient }}
+          </ion-item>
+        </ion-list>
+      </ion-item-sliding>
+  
+      
+    </ion-list>
+  </ion-content>
 </ion-content>

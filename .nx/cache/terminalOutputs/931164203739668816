@@ -1,0 +1,72 @@
+
+Initial Chunk Files                   | Names                   |  Raw Size | Estimated Transfer Size
+main.31c99ad92cb778a4.js              | main                    | 393.91 kB |               104.02 kB
+polyfills.53dd1ba240d556a9.js         | polyfills               |  33.09 kB |                10.68 kB
+styles.7da9767b6f763625.css           | styles                  |  26.21 kB |                 4.10 kB
+runtime.bd56b8439c5c4ec4.js           | runtime                 |   4.57 kB |                 2.20 kB
+
+| Initial Total           | 457.77 kB |               121.00 kB
+
+Lazy Chunk Files                      | Names                   |  Raw Size | Estimated Transfer Size
+polyfills-core-js.93f56369317b7a8e.js | polyfills-core-js       |  91.83 kB |                27.76 kB
+5962.fc8eda2567e40938.js              | -                       |  79.37 kB |                 8.58 kB
+7059.6bb4b0a64153ea49.js              | -                       |  71.83 kB |                12.73 kB
+3734.b4403f15633c8e9b.js              | -                       |  53.59 kB |                 5.85 kB
+4530.eb60926e446731f7.js              | -                       |  49.42 kB |                 6.00 kB
+6754.c1f10e5b4064913b.js              | -                       |  42.48 kB |                 7.04 kB
+5860.6574057d4d4cfee0.js              | -                       |  39.26 kB |                 8.37 kB
+6304.d242ce548ec1aa26.js              | -                       |  35.92 kB |                 6.12 kB
+7666.59cb00c45a04f1b6.js              | -                       |  32.23 kB |                 5.86 kB
+8577.674eb7139a8d1615.js              | -                       |  26.90 kB |                 6.57 kB
+3672.bb7e58fce5b39854.js              | -                       |  26.66 kB |                 4.83 kB
+1372.9bf619c41b27f0cb.js              | -                       |  26.03 kB |                 5.09 kB
+3998.ea19b04997ebfd04.js              | -                       |  25.25 kB |                 4.12 kB
+8866.1e27ed8005c62dec.js              | -                       |  25.06 kB |                 4.04 kB
+7219.399a96abb81dd3a0.js              | -                       |  23.97 kB |                 4.72 kB
+185.3cf6b04df7cf3f79.js               | -                       |  23.55 kB |                 5.71 kB
+8382.df53aafc90eaddc0.js              | -                       |  22.91 kB |                 4.77 kB
+4090.ab1c45bb62a40313.js              | -                       |  22.35 kB |                 3.28 kB
+4087.c0474a7a6aa395a2.js              | -                       |  21.92 kB |                 3.56 kB
+4458.f3289712085a5dd6.js              | -                       |  21.56 kB |                 3.86 kB
+9882.49b15970ff3fb77f.js              | -                       |  21.33 kB |                 3.82 kB
+8633.0698d2d8f76b66e1.js              | -                       |  19.61 kB |                 3.68 kB
+5454.1ebdc26b2c5c93be.js              | -                       |  19.10 kB |                 1.87 kB
+7635.58ef56834329166a.js              | -                       |  18.98 kB |                 3.11 kB
+common.486f3484491765e5.js            | common                  |  18.23 kB |                 5.33 kB
+6642.a066b0e94d5c2a36.js              | -                       |  18.21 kB |                 4.21 kB
+polyfills-dom.516ff539260f3e0d.js     | polyfills-dom           |  18.05 kB |                 5.03 kB
+9857.79e075fd26e8ba94.js              | -                       |  13.54 kB |                 2.72 kB
+9302.b232d3d77831a7a3.js              | -                       |  12.71 kB |                 4.14 kB
+8484.6ce0fc73b5adfacf.js              | -                       |  12.01 kB |                 2.78 kB
+5675.9da774b1845b13cf.js              | -                       |  11.83 kB |                 3.69 kB
+505.319e15a7c1ff55f4.js               | -                       |  11.75 kB |                 2.25 kB
+4764.f69fac1fedb60c80.js              | -                       |  11.37 kB |                 3.84 kB
+3150.890a2826defbcb78.js              | -                       |  10.96 kB |                 2.10 kB
+9820.5e3b370abd56fba1.js              | -                       |  10.83 kB |                 2.10 kB
+8594.6e8e4b8ff83f929b.js              | ios-transition-js       |  10.21 kB |                 2.62 kB
+3483.ba04469630eb07fd.js              | -                       |   9.28 kB |                 2.37 kB
+1315.47f532243e702ebc.js              | -                       |   8.54 kB |                 1.33 kB
+962.04956d1050772698.js               | ios-transition-js       |   8.14 kB |                 2.93 kB
+9992.3cd8fce58ab1b1aa.js              | -                       |   7.34 kB |                 2.15 kB
+6673.82c10d3dddf651a3.js              | -                       |   6.92 kB |                 1.23 kB
+9588.8a7935593934fa50.js              | -                       |   6.23 kB |                 1.53 kB
+433.d1e441a0d0fbf187.js               | -                       |   6.09 kB |                 1.78 kB
+9352.7d84c3937ff46d66.js              | -                       |   5.63 kB |                 1.34 kB
+9793.020b1ee76828b5d2.js              | -                       |   5.49 kB |                 1.24 kB
+2975.29e30ede87983c90.js              | -                       |   5.34 kB |                 1.86 kB
+6849.942979f8f0e9679a.js              | tab1-tab1-module        |   5.11 kB |                 1.70 kB
+8895.26c4610b57f2e1cc.js              | input-shims-d0c93e5d-js |   4.92 kB |                 1.87 kB
+2841.75f0884e4ced91c2.js              | -                       |   3.84 kB |                 1.29 kB
+3544.46f5ad11a2b51896.js              | -                       |   3.82 kB |               981 bytes
+7465.dbeee3f38df80316.js              | -                       |   3.05 kB |               936 bytes
+8204.27637a7e6c8df285.js              | tab2-tab2-module        |   2.64 kB |                 1.06 kB
+1583.1fbb1572e298b7a4.js              | tab3-tab3-module        |   2.04 kB |               808 bytes
+8058.92bc3c5df214f8f0.js              | index-f0cc4e14-js       |   1.87 kB |               825 bytes
+4054.702786e91fac40aa.js              | tabs-tabs-module        |   1.81 kB |               702 bytes
+1745.d1821f88b5b88536.js              | -                       |   1.71 kB |               696 bytes
+469.a2803c28c005f4f2.js               | -                       |   1.50 kB |               508 bytes
+7250.dd7a58df6c68d73e.js              | md-transition-js        |   1.04 kB |               486 bytes
+8811.cd1704e05c1f5022.js              | -                       |   1.00 kB |               553 bytes
+5951.5d8cdcf7e12448e3.js              | status-tap-9ce68758-js  | 529 bytes |               322 bytes
+
+Build at: 2023-11-26T19:41:55.483Z - Hash: 6d8fc6568fdb0b36 - Time: 24534ms

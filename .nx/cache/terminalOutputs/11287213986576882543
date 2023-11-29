@@ -1,0 +1,2379 @@
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+    
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                   |  Raw Size
+vendor.js                                                                                               | vendor                  |   3.76 MB |
+polyfills.js                                                                                            | polyfills               | 336.66 kB |
+styles.css, styles.js                                                                                   | styles                  | 292.55 kB |
+main.js                                                                                                 | main                    |  15.75 kB |
+runtime.js                                                                                              | runtime                 |  14.11 kB |
+
+| Initial Total           |   4.40 MB
+
+Lazy Chunk Files                                                                                        | Names                   |  Raw Size
+polyfills-core-js.js                                                                                    | polyfills-core-js       | 152.18 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js                                             | -                       | 143.52 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                                                 | -                       |  93.13 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                                                  | -                       |  77.81 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                                                  | -                       |  77.50 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js                                               | -                       |  74.58 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js                                               | -                       |  64.53 kB |
+common.js                                                                                               | common                  |  62.20 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                                                  | -                       |  62.08 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                                                | -                       |  58.36 kB |
+default-node_modules_ionic_core_dist_esm_data-44d9e816_js.js                                            | -                       |  55.98 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js                                            | -                       |  53.27 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                                                  | -                       |  52.93 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                                                  | -                       |  50.72 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                                                 | -                       |  43.94 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js                                              | -                       |  40.64 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js                                               | -                       |  38.88 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                                                  | -                       |  37.46 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js                                              | -                       |  36.83 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                                                 | -                       |  35.43 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                                                | -                       |  34.78 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                                                  | -                       |  34.19 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js                                          | -                       |  34.04 kB |
+default-node_modules_ionic_core_components_animation_js.js                                              | ios-transition-js       |  32.74 kB |
+node_modules_ionic_core_components_ios_transition_js.js                                                 | ios-transition-js       |  32.36 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                                                | -                       |  32.29 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js                                           | -                       |  32.11 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js                                            | -                       |  28.25 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js                                              | -                       |  27.21 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js                                               | -                       |  27.19 kB |
+node_modules_ionic_core_dist_esm_input-shims-d0c93e5d_js.js                                             | input-shims-d0c93e5d-js |  27.02 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                                                  | -                       |  26.67 kB |
+polyfills-dom.js                                                                                        | polyfills-dom           |  26.61 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js                                        | -                       |  24.67 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js                                           | -                       |  21.60 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js                                           | -                       |  20.74 kB |
+node_modules_ionic_core_dist_esm_ion-datetime-button_entry_js.js                                        | -                       |  18.62 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js                                 | -                       |  18.56 kB |
+node_modules_stencil_core_internal_client_shadow-css_js.js                                              | shadow-css-js           |  18.53 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                                                | -                       |  17.63 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js                                            | -                       |  15.41 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                                                 | -                       |  14.91 kB |
+default-node_modules_ionic_core_dist_esm_form-controller-64edeaad_js-node_modules_ionic_core_-4567a5.js | -                       |  14.59 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js                                              | -                       |  13.81 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js                                      | -                       |  13.41 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                                                  | -                       |  13.25 kB |
+src_app_tab2_tab2_module_ts.js                                                                          | tab2-tab2-module        |  11.03 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                                                  | -                       |  10.29 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js                                             | -                       |   9.05 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                                                | -                       |   8.52 kB |
+src_app_tabs_tabs_module_ts.js                                                                          | tabs-tabs-module        |   8.03 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                                                   | -                       |   7.87 kB |
+src_app_tab1_tab1_module_ts.js                                                                          | tab1-tab1-module        |   7.36 kB |
+src_app_tab3_tab3_module_ts.js                                                                          | tab3-tab3-module        |   7.34 kB |
+node_modules_ionic_core_dist_esm_index-f0cc4e14_js.js                                                   | index-f0cc4e14-js       |   6.84 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js                                          | -                       |   6.24 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js                                               | -                       |   5.49 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                                                    | -                       |   4.63 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js                                               | -                       |   3.24 kB |
+node_modules_ionic_core_components_md_transition_js.js                                                  | md-transition-js        |   2.98 kB |
+node_modules_ionic_core_dist_esm_status-tap-9ce68758_js.js                                              | status-tap-9ce68758-js  |   2.91 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                                                   | -                       |   1.79 kB |
+
+Build at: 2023-11-21T16:31:48.665Z - Hash: 82f77b1a03cea827 - Time: 5965ms
+
+** Angular Live Development Server is listening on 192.168.1.108:4200, open your browser on http://192.168.1.108:4200/ **
+
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:07.969Z - Hash: d257c3bcd8df2691 - Time: 2844ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:38:08.705Z - Hash: d257c3bcd8df2691 - Time: 344ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:13.181Z - Hash: 47848084248c28e0 - Time: 568ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:14.056Z - Hash: 768dd40c08809bf2 - Time: 453ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:14.683Z - Hash: 934418ed14d2a5aa - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:38:33.033Z - Hash: 934418ed14d2a5aa - Time: 436ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:52.411Z - Hash: d1368239014c7f88 - Time: 455ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:53.796Z - Hash: 04237757aa982fd2 - Time: 437ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:54.445Z - Hash: fafbd665409c835e - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:38:55.113Z - Hash: 4f62de2cf6c2d627 - Time: 382ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:39:07.728Z - Hash: c49e77916f24b014 - Time: 402ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.82 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:39:12.772Z - Hash: a520d6d2daf4962a - Time: 394ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.82 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:39:14.598Z - Hash: ad417e6a40e1a798 - Time: 319ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:39:18.083Z - Hash: d7b506cfb57e98d0 - Time: 325ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:39:18.754Z - Hash: 6b3d0f4f5bf00674 - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:39:19.703Z - Hash: 6b3d0f4f5bf00674 - Time: 444ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:39:23.528Z - Hash: 6b3d0f4f5bf00674 - Time: 310ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.86 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:07.042Z - Hash: b2b137a2c1ccfc6d - Time: 455ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:07.790Z - Hash: 2043ce2ae4ad8585 - Time: 371ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:08.444Z - Hash: 355a89f9ba098841 - Time: 327ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:09.134Z - Hash: 75b794f378f75688 - Time: 401ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.87 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:09.808Z - Hash: 0758f24369970c51 - Time: 332ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.88 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:10.520Z - Hash: 08203728b359fe64 - Time: 326ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.88 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:11.417Z - Hash: b7267bf145b0f8b2 - Time: 305ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:34.417Z - Hash: 3030dbf66dfac509 - Time: 430ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:35.145Z - Hash: 50d6a864d1281b39 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:35.990Z - Hash: 8729d76734607f23 - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:36.647Z - Hash: e33ca5830bf5f6db - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:39.486Z - Hash: 5d6177e49c833388 - Time: 339ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:40:52.306Z - Hash: faf91b8e5c14f9c2 - Time: 348ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:41:00.728Z - Hash: 04d5b26d82746370 - Time: 390ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.85 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:41:43.801Z - Hash: 7118b879ac60193a - Time: 431ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:41:59.964Z - Hash: 2cffc81b4af172f3 - Time: 408ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:00.712Z - Hash: e37a827a8855f314 - Time: 459ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:01.380Z - Hash: 500fc62bdf8efca6 - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:02.036Z - Hash: 91ed5244aaeb3829 - Time: 326ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.41 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:21.282Z - Hash: b3e7260bb41dc10b - Time: 344ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+1 │ i
+  │  ^
+  ╵
+  src\app\tab1\tab1.page.scss 1:2  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.41 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:21.868Z - Hash: 8a9e03f27c96dcc1 - Time: 243ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+1 │ io
+  │   ^
+  ╵
+  src\app\tab1\tab1.page.scss 1:3  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:22.511Z - Hash: 2ca2500817bb454a - Time: 330ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.42 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:29.475Z - Hash: d2916f5937fee585 - Time: 247ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+1 │ ion-icon
+  │         ^
+  ╵
+  src\app\tab1\tab1.page.scss 1:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.84 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:30.412Z - Hash: 2ca2500817bb454a - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:42:31.058Z - Hash: 2ca2500817bb454a - Time: 375ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.42 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:34.659Z - Hash: 9550499b5cb5fbdc - Time: 299ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     p
+  │      ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.42 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:35.193Z - Hash: 17b56f67fe3e7a81 - Time: 210ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     pasdd
+  │          ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:10  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:42:35.702Z - Hash: 358f9b35b42b5735 - Time: 226ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     pas
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:42:36.266Z - Hash: 730d1e6d4c8bd727 - Time: 260ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     pad
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:42:36.773Z - Hash: 84f4879ee6fbb25b - Time: 219ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+2 │     padding: ;
+  │              ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:42:37.259Z - Hash: 84f4879ee6fbb25b - Time: 211ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+2 │     padding: ;
+  │              ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:37.919Z - Hash: 156b1a895b59f0dd - Time: 352ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:38.532Z - Hash: 079960ec3f01e32e - Time: 327ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:39.350Z - Hash: df97d25bec9ddf15 - Time: 393ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:39.977Z - Hash: dd7584c10ac7a56b - Time: 338ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:40.610Z - Hash: f52e9bc7a5422d89 - Time: 328ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:41.430Z - Hash: 412d4fde9cdb1597 - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:46.302Z - Hash: 25134ecdfec9e26d - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:46.933Z - Hash: 6fc95eed2377062f - Time: 337ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.05 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:47.600Z - Hash: 288ec41033047c81 - Time: 371ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:48.299Z - Hash: 3db5ff2c5d67b3f9 - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:42:48.968Z - Hash: d5ad26860b5bfbe7 - Time: 351ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:25.227Z - Hash: c23453a3e7894233 - Time: 486ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:25.831Z - Hash: 6910473bf69fbb6c - Time: 323ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:26.513Z - Hash: 8f5d06291d8c1002 - Time: 325ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:27.233Z - Hash: 9d92294d792915be - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:27.940Z - Hash: 3585cc4e5878e048 - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:28.566Z - Hash: 5c8fe291b9887856 - Time: 331ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:43:29.183Z - Hash: 5c8fe291b9887856 - Time: 309ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:39.776Z - Hash: 1b9c612077978078 - Time: 454ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:40.418Z - Hash: 613df1ca0b430108 - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:41.158Z - Hash: 9f40009365f8808c - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:43:41.823Z - Hash: 9f40009365f8808c - Time: 312ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.47 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:46.438Z - Hash: 9fb48fb131e54139 - Time: 304ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected digit.
+  ╷
+2 │     padding-right: 0.em;
+  │                      ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:22  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:47.056Z - Hash: 30653499ff81d41c - Time: 337ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:47.789Z - Hash: 3c630be951fe2b63 - Time: 401ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.47 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:51.981Z - Hash: 21fd993871ee5965 - Time: 241ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected digit.
+  ╷
+2 │     padding-right: 0.em;
+  │                      ^
+  ╵
+  src\app\tab1\tab1.page.scss 2:22  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:52.585Z - Hash: d48009ce084fe82f - Time: 335ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:43:53.267Z - Hash: 1d9db9c4dd58a421 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  5.45 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:01.720Z - Hash: 8160afa051c72380 - Time: 358ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m NG5002: [0mOpening tag "Wybierz" not terminated.
+
+[7m26[0m           <ion-label><Wybierz danie</ion-label>
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  5.45 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:02.382Z - Hash: aaea7b300dfab35a - Time: 308ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m NG5002: [0mOpening tag "spWybierz" not terminated.
+
+[7m26[0m           <ion-label><spWybierz danie</ion-label>
+[7m  [0m [91m                     ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:02.865Z - Hash: 542695afe334c0fc - Time: 202ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m NG5002: [0mOpening tag "spaWybierz" not terminated.
+
+[7m26[0m           <ion-label><spaWybierz danie</ion-label>
+[7m  [0m [91m                     ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:03.777Z - Hash: 4df22a8bba11658d - Time: 212ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m40[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><spa>Wybierz danie</ion-label>
+[7m  [0m [91m                                       ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:04.286Z - Hash: 871463170a9c49bd - Time: 235ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m22[0m - [91merror[0m[90m NG8001: [0m'spa' is not a known element:
+1. If 'spa' is an Angular component, then verify that it is part of this module.
+2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m26[0m           <ion-label><spa></spa>Wybierz danie</ion-label>
+[7m  [0m [91m                     ~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  5.45 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:05.334Z - Hash: 4df22a8bba11658d - Time: 254ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m40[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><spa>Wybierz danie</ion-label>
+[7m  [0m [91m                                       ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:06.878Z - Hash: 18b661dfdc7b2af1 - Time: 201ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m41[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><span>Wybierz danie</ion-label>
+[7m  [0m [91m                                        ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:10.440Z - Hash: 48ee5359c5694ba1 - Time: 203ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m42[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><span>Wybierz danie<</ion-label>
+[7m  [0m [91m                                         ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:10.987Z - Hash: 17d7dcb2320f3328 - Time: 205ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m41[0m - [91merror[0m[90m NG5002: [0mOpening tag "spa" not terminated.
+
+[7m26[0m           <ion-label><span>Wybierz danie<spa</ion-label>
+[7m  [0m [91m                                        ~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m45[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><span>Wybierz danie<spa</ion-label>
+[7m  [0m [91m                                            ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:11.481Z - Hash: 7e962906ac606c5f - Time: 212ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m41[0m - [91merror[0m[90m NG5002: [0mOpening tag "span" not terminated.
+
+[7m26[0m           <ion-label><span>Wybierz danie<span</ion-label>
+[7m  [0m [91m                                        ~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m46[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><span>Wybierz danie<span</ion-label>
+[7m  [0m [91m                                             ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:45:11.948Z - Hash: 7e962906ac606c5f - Time: 198ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m41[0m - [91merror[0m[90m NG5002: [0mOpening tag "span" not terminated.
+
+[7m26[0m           <ion-label><span>Wybierz danie<span</ion-label>
+[7m  [0m [91m                                        ~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m26[0m:[93m46[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m26[0m           <ion-label><span>Wybierz danie<span</ion-label>
+[7m  [0m [91m                                             ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.10 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:13.378Z - Hash: 0e5a29759d957d4a - Time: 350ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.10 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:16.457Z - Hash: 9dfe3c123d6dbf98 - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:17.136Z - Hash: ea716373920d3477 - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:17.882Z - Hash: 9484d6900dcee378 - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:18.486Z - Hash: ef5a25ca4490342c - Time: 297ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:21.586Z - Hash: 88f6503379186ad4 - Time: 323ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:22.213Z - Hash: 48915bd730de3382 - Time: 339ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:22.951Z - Hash: 06083de236efc5c1 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:23.626Z - Hash: 71c804f0035a5f99 - Time: 322ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.13 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:26.790Z - Hash: 4cc9ce22ea6bf6d1 - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.46 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:27.437Z - Hash: c5326f5a07cb3d80 - Time: 266ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .
+  │  ^
+  ╵
+  src\app\tab1\tab1.page.scss 5:2  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.46 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:27.988Z - Hash: 163b2c757a42ef3e - Time: 246ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .head
+  │      ^
+  ╵
+  src\app\tab1\tab1.page.scss 5:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:28.535Z - Hash: 9cbefa1031b5c25f - Time: 246ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .headee
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 5:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:45:29.023Z - Hash: 9cbefa1031b5c25f - Time: 212ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .headee
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 5:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:29.547Z - Hash: 9579c900f587acaa - Time: 215ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .header
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 5:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:30.196Z - Hash: b3dcf628674e4074 - Time: 330ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:30.798Z - Hash: 78e1311aee7f6e02 - Time: 314ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.48 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:34.908Z - Hash: e6c8a831266954f4 - Time: 234ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     te
+  │       ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.48 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:35.629Z - Hash: 0769662487da5c6b - Time: 209ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     tex
+  │        ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:36.181Z - Hash: 77abd690698d4a2a - Time: 212ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text
+  │         ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:36.698Z - Hash: 4da241a3092a56e7 - Time: 206ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text-
+  │          ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:10  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:37.278Z - Hash: 16bbdf2bc1acb04c - Time: 249ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text-w
+  │           ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:11  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:37.783Z - Hash: 20f3f69b6104e620 - Time: 218ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text-we
+  │            ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:12  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:38.727Z - Hash: 16bbdf2bc1acb04c - Time: 213ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text-w
+  │           ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:11  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:39.254Z - Hash: 4da241a3092a56e7 - Time: 203ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text-
+  │          ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:10  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:40.273Z - Hash: 77abd690698d4a2a - Time: 214ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     text
+  │         ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:40.869Z - Hash: 7774932c65c9da27 - Time: 213ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     t
+  │      ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:41.474Z - Hash: 6b8ab7d88a3aec5e - Time: 221ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     fo
+  │       ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:42.024Z - Hash: 19989b0deba596b7 - Time: 231ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     font
+  │         ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:42.544Z - Hash: 9f2f3bfeeac4f6ae - Time: 220ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     font-we
+  │            ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:12  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:45:43.052Z - Hash: 72151712bdfa7bb7 - Time: 212ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+6 │     font-weight: ;
+  │                  ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:18  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:45:43.549Z - Hash: 72151712bdfa7bb7 - Time: 204ms
+
+./src/app/tab1/tab1.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+6 │     font-weight: ;
+  │                  ^
+  ╵
+  src\app\tab1\tab1.page.scss 6:18  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:45.299Z - Hash: c03e2668fee1c48a - Time: 528ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:45.946Z - Hash: 565cdc0eb0a44ba7 - Time: 310ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.26 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:49.782Z - Hash: 815da99cd020659b - Time: 320ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:50.595Z - Hash: f8655ef382db6f91 - Time: 373ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:54.605Z - Hash: da1b8146637adfe9 - Time: 321ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:55.209Z - Hash: 7c0ab23598041832 - Time: 316ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.26 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:56.053Z - Hash: 608a4f6069862b73 - Time: 472ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:45:56.842Z - Hash: 576f7843cd9e8d0a - Time: 370ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.50 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:46:35.375Z - Hash: b8c1c55b49eb7f0f - Time: 466ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module |  5.45 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:46:49.231Z - Hash: b9a0bca1f44b762c - Time: 273ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-la". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-la>
+[7m  [0m [91m        ~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:46:49.821Z - Hash: b9a0bca1f44b762c - Time: 319ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-la". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-la>
+[7m  [0m [91m        ~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:46:50.393Z - Hash: 5869c25523dfde65 - Time: 236ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-labe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-labe>
+[7m  [0m [91m        ~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:46:50.885Z - Hash: 39021738ba4d1f98 - Time: 217ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-label>
+[7m  [0m [91m        ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:46:52.543Z - Hash: 5869c25523dfde65 - Time: 200ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-labe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-labe>
+[7m  [0m [91m        ~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:46:54.637Z - Hash: c855d0bc52cd48e0 - Time: 195ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-lab". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-lab>
+[7m  [0m [91m        ~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-21T16:46:55.178Z - Hash: b9a0bca1f44b762c - Time: 231ms
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-la". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m27[0m         </ion-la>
+[7m  [0m [91m        ~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+Error: [96msrc/app/tab1/tab1.page.html[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item-sliding". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m29[0m       </ion-item-sliding>
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab1/tab1.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab1.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab1Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 17.50 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:46:55.811Z - Hash: 0351b77b41f6592e - Time: 315ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 18.27 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-21T16:48:00.182Z - Hash: 0d4b48cee985c5a5 - Time: 398ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-21T16:50:10.046Z - Hash: 0d4b48cee985c5a5 - Time: 507ms
+
+√ Compiled successfully.
