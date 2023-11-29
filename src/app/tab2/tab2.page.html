@@ -2,8 +2,19 @@
   <ion-toolbar>
     <ion-title>
       Kalkulator BMI
+
+      <button class="questionMark"><ion-icon (click)="presentPopover($event)" name="information-circle"></ion-icon></button>
+      <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+        <ng-template>
+          <ion-content class="ion-padding">BMI (Body Mass Index) to prosty wskaźnik oceny masy ciała w zależności od wzrostu.
+             Klasyfikuje się osoby w kategoriach, takich jak niedowaga, prawidłowa masa ciała, nadwaga i otyłość.
+             Pomaga identyfikować potencjalne ryzyko zdrowotne związane z wagą, choć nie uwzględnia składu ciała czy innych czynników.</ion-content>
+        </ng-template>
+      </ion-popover>
+    
     </ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -16,14 +27,7 @@
       
     </ion-toolbar>
   </ion-header>
-  <!--
-  1. Input - height
-  2. Input weight
-  3. Przycisk Licz
-  4. Zwraca BMI i w nawiasie w jakim przedziale się mieści
-
-
-  -->
+  
   <ion-list>
     <ion-item>
       <ion-input

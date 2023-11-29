@@ -95,9 +95,9 @@ export class Tab1Page {
       name: 'Donut (200-300 kcal/sztuka)', 
       icon: 'assets/donut.jpg', 
       ingredients: [
-        'Ciasto (300 kcal/sztuka)', 
-        'Polewa (200 kcal/sztuka)', 
-        'Posypka (100 kcal/sztuka)'
+        'Ciasto (150 kcal/sztuka)', 
+        'Polewa (100 kcal/sztuka)', 
+        'Posypka (50 kcal/sztuka)'
       ] 
     },
     { 

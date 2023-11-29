@@ -1,0 +1,4310 @@
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+    
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                   |  Raw Size
+vendor.js                                                                                               | vendor                  |   3.76 MB |
+polyfills.js                                                                                            | polyfills               | 336.66 kB |
+styles.css, styles.js                                                                                   | styles                  | 292.55 kB |
+main.js                                                                                                 | main                    |  15.75 kB |
+runtime.js                                                                                              | runtime                 |  14.11 kB |
+
+| Initial Total           |   4.40 MB
+
+Lazy Chunk Files                                                                                        | Names                   |  Raw Size
+polyfills-core-js.js                                                                                    | polyfills-core-js       | 152.18 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js                                             | -                       | 143.52 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                                                 | -                       |  93.13 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                                                  | -                       |  77.81 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                                                  | -                       |  77.50 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js                                               | -                       |  74.58 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js                                               | -                       |  64.53 kB |
+common.js                                                                                               | common                  |  62.20 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                                                  | -                       |  62.08 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                                                | -                       |  58.36 kB |
+default-node_modules_ionic_core_dist_esm_data-44d9e816_js.js                                            | -                       |  55.98 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js                                            | -                       |  53.27 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                                                  | -                       |  52.93 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                                                  | -                       |  50.72 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                                                 | -                       |  43.94 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js                                              | -                       |  40.64 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js                                               | -                       |  38.88 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                                                  | -                       |  37.46 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js                                              | -                       |  36.83 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                                                 | -                       |  35.43 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                                                | -                       |  34.78 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                                                  | -                       |  34.19 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js                                          | -                       |  34.04 kB |
+default-node_modules_ionic_core_components_animation_js.js                                              | ios-transition-js       |  32.74 kB |
+node_modules_ionic_core_components_ios_transition_js.js                                                 | ios-transition-js       |  32.36 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                                                | -                       |  32.29 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js                                           | -                       |  32.11 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js                                            | -                       |  28.25 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js                                              | -                       |  27.21 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js                                               | -                       |  27.19 kB |
+node_modules_ionic_core_dist_esm_input-shims-d0c93e5d_js.js                                             | input-shims-d0c93e5d-js |  27.02 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                                                  | -                       |  26.67 kB |
+polyfills-dom.js                                                                                        | polyfills-dom           |  26.61 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js                                        | -                       |  24.67 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js                                           | -                       |  21.60 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js                                           | -                       |  20.74 kB |
+node_modules_ionic_core_dist_esm_ion-datetime-button_entry_js.js                                        | -                       |  18.62 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js                                 | -                       |  18.56 kB |
+node_modules_stencil_core_internal_client_shadow-css_js.js                                              | shadow-css-js           |  18.53 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                                                | -                       |  17.63 kB |
+src_app_tab1_tab1_module_ts.js                                                                          | tab1-tab1-module        |  15.52 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js                                            | -                       |  15.41 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                                                 | -                       |  14.91 kB |
+default-node_modules_ionic_core_dist_esm_form-controller-64edeaad_js-node_modules_ionic_core_-4567a5.js | -                       |  14.59 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js                                              | -                       |  13.81 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js                                      | -                       |  13.41 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                                                  | -                       |  13.25 kB |
+src_app_tab2_tab2_module_ts.js                                                                          | tab2-tab2-module        |  11.03 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                                                  | -                       |  10.29 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js                                             | -                       |   9.05 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                                                | -                       |   8.52 kB |
+src_app_tabs_tabs_module_ts.js                                                                          | tabs-tabs-module        |   8.03 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                                                   | -                       |   7.87 kB |
+src_app_tab3_tab3_module_ts.js                                                                          | tab3-tab3-module        |   7.34 kB |
+node_modules_ionic_core_dist_esm_index-f0cc4e14_js.js                                                   | index-f0cc4e14-js       |   6.84 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js                                          | -                       |   6.24 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js                                               | -                       |   5.49 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                                                    | -                       |   4.63 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js                                               | -                       |   3.24 kB |
+node_modules_ionic_core_components_md_transition_js.js                                                  | md-transition-js        |   2.98 kB |
+node_modules_ionic_core_dist_esm_status-tap-9ce68758_js.js                                              | status-tap-9ce68758-js  |   2.91 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                                                   | -                       |   1.79 kB |
+
+Build at: 2023-11-29T20:19:13.274Z - Hash: 9dce2bdf2c5c6c89 - Time: 8557ms
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T20:22:14.722Z - Hash: 9dce2bdf2c5c6c89 - Time: 567ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 15.52 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T20:28:16.349Z - Hash: 67db044c338d2232 - Time: 942ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 15.52 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T20:28:17.176Z - Hash: d284a3badb4ab978 - Time: 493ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 15.52 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T20:28:18.213Z - Hash: 250e3bf4816fbdfb - Time: 639ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 15.52 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T20:28:19.961Z - Hash: c9aaa49784d9e207 - Time: 501ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab1_tab1_module_ts.js | tab1-tab1-module | 15.52 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T20:28:20.671Z - Hash: beb8a9ff209b8e34 - Time: 423ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:44.807Z - Hash: 3e9b4ce9ab60bba7 - Time: 627ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:00:45.697Z - Hash: 3e9b4ce9ab60bba7 - Time: 538ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:48.518Z - Hash: 36fa25470c728c6a - Time: 429ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:50.729Z - Hash: 5797b43ac320165b - Time: 365ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:52.246Z - Hash: 21b27b01f8beb04e - Time: 363ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:52.947Z - Hash: 21c41b802511082f - Time: 370ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.43 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:00:53.661Z - Hash: ad03ac909bbdc65b - Time: 311ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'presentPopover' does not exist on type 'Tab2Page'.
+
+[7m6[0m       <ion-button (click)="presentPopover($event)">Click Me</ion-button>
+[7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                                      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.03 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:00.096Z - Hash: 381994017ce86385 - Time: 340ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.43 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:03.780Z - Hash: 8130546729e5b2f7 - Time: 289ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'presentPopover' does not exist on type 'Tab2Page'.
+
+[7m6[0m       <ion-button (click)="presentPopover($event)">Click Me</ion-button>
+[7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                                      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.43 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:36.843Z - Hash: 8c31273e974a074e - Time: 466ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'presentPopover' does not exist on type 'Tab2Page'.
+
+[7m6[0m       <ion-button (click)="presentPopover($event)">Click Me</ion-button>
+[7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                                      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.43 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:37.483Z - Hash: 001e3c0ba749e584 - Time: 344ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'presentPopover' does not exist on type 'Tab2Page'.
+
+[7m6[0m       <ion-button (click)="presentPopover($event)">Click Me</ion-button>
+[7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                                      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.43 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:38.121Z - Hash: 067bf0191b8dc4f2 - Time: 301ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'presentPopover' does not exist on type 'Tab2Page'.
+
+[7m6[0m       <ion-button (click)="presentPopover($event)">Click Me</ion-button>
+[7m [0m [91m                           ~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m7[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'isOpen' does not exist on type 'Tab2Page'.
+
+[7m7[0m <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
+[7m [0m [91m                                                      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:38.850Z - Hash: 2e03e278fadc70b2 - Time: 344ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m2[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ViewChild'.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m ~~~~~~~~~[0m
+
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7008: [0mMember 'popover' implicitly has an 'any' type.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m                      ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:49.748Z - Hash: 0c5788536a2b257f - Time: 324ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m2[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ViewChild'.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m ~~~~~~~~~[0m
+
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7008: [0mMember 'popover' implicitly has an 'any' type.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m                      ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:50.334Z - Hash: e42fd49e8a2cb154 - Time: 291ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7008: [0mMember 'popover' implicitly has an 'any' type.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m                      ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:01:50.985Z - Hash: 43016da5715ba36c - Time: 283ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7008: [0mMember 'popover' implicitly has an 'any' type.
+
+[7m33[0m @ViewChild('popover') popover;
+[7m  [0m [91m                      ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:02:17.320Z - Hash: b7a9bf3f0d24429e - Time: 288ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7008: [0mMember 'popover' implicitly has an 'any' type.
+
+[7m33[0m @ViewChild('popover') popover ;
+[7m  [0m [91m                      ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:02:18.143Z - Hash: 05636f4fb11d10dd - Time: 390ms
+
+Error: [96msrc/app/tab2/tab2.page.ts[0m:[93m33[0m:[93m32[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m33[0m @ViewChild('popover') popover :;
+[7m  [0m [91m                               ~[0m
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:02:19.015Z - Hash: bacabfbe0adfca66 - Time: 460ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:03.602Z - Hash: 953c2c7357bada88 - Time: 403ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:04.529Z - Hash: 1f4d2cdeca609870 - Time: 372ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:10.257Z - Hash: a017aae04f032152 - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:19.217Z - Hash: d5b104bef0764043 - Time: 420ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:20.423Z - Hash: f6b850237f3d5615 - Time: 488ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:21.044Z - Hash: 5e1759bb22db2dc4 - Time: 338ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.90 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:24.526Z - Hash: 5d10681c81a5a001 - Time: 349ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:25.265Z - Hash: e1a115a0fe0c6608 - Time: 434ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:26.014Z - Hash: 5cb48c811c10f62c - Time: 353ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:26.657Z - Hash: cc241b55ee5af6be - Time: 327ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:31.055Z - Hash: 878dcb1a239e2cc6 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:32.009Z - Hash: dedbcb1cfff53236 - Time: 472ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:32.665Z - Hash: 664f9269d9aca88e - Time: 334ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:33.931Z - Hash: ebf740cd2ce6a65b - Time: 425ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:34.713Z - Hash: 18cdba648abc6eb0 - Time: 497ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.93 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:35.413Z - Hash: 2f7e1bc663d92f07 - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.93 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:36.074Z - Hash: 8bc96fc24576cb88 - Time: 336ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.93 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:47.239Z - Hash: 5d81aaaeddaf2956 - Time: 538ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.94 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:47.991Z - Hash: 04fb8fe9816869cb - Time: 410ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:48.588Z - Hash: fefa9c47a16e6b1f - Time: 282ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .
+  │  ^
+  ╵
+  src\app\tab2\tab2.page.scss 5:2  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:49.182Z - Hash: a8ba4398e6547f5e - Time: 259ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+5 │ .questionMark
+  │              ^
+  ╵
+  src\app\tab2\tab2.page.scss 5:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.96 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:49.972Z - Hash: b7207638d643c211 - Time: 363ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.98 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:50.623Z - Hash: 0bfe9d3267af5581 - Time: 361ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:52.449Z - Hash: b9276fdad61dcf6c - Time: 344ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     b
+  │      ^
+  ╵
+  src\app\tab2\tab2.page.scss 6:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:52.981Z - Hash: 96a1eef0b527cdb4 - Time: 257ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+6 │     bor
+  │        ^
+  ╵
+  src\app\tab2\tab2.page.scss 6:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:03:53.926Z - Hash: 9aa13db29c2d5f29 - Time: 242ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+6 │     border-radius: ;
+  │                    ^
+  ╵
+  src\app\tab2\tab2.page.scss 6:20  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:56.103Z - Hash: 30bb14c40988eb4c - Time: 355ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:56.730Z - Hash: 77c801f8db24224b - Time: 322ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:03:57.372Z - Hash: 9f7d10e58d413d2a - Time: 334ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:02.526Z - Hash: 8e477cc8da40aa4d - Time: 370ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:03.141Z - Hash: fd9b4a110edf44d1 - Time: 328ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:03.757Z - Hash: 3223f265b06ce2d8 - Time: 319ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:09.080Z - Hash: c01ef281d1cc8990 - Time: 367ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:09.710Z - Hash: f4822817ff90e2c0 - Time: 344ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.32 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:10.267Z - Hash: 2a1f7fa75c130f6c - Time: 263ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+6 │     border-radius: ;
+  │                    ^
+  ╵
+  src\app\tab2\tab2.page.scss 6:20  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:10.946Z - Hash: d824bcfaf7885b13 - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:11.582Z - Hash: eeaafc794e7b0050 - Time: 338ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:16.642Z - Hash: 50bb1b95ff1305e3 - Time: 348ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:17.234Z - Hash: f953c15589071d5e - Time: 305ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:21.176Z - Hash: 16aaaf7416c0f479 - Time: 320ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:04:43.818Z - Hash: 272406c6b0d25666 - Time: 439ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:08:39.895Z - Hash: e7df12992bc4c1b7 - Time: 381ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mOpening tag "ion-button" not terminated.
+
+[7m6[0m     <ion-button <ion-icon name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m75[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-button <ion-icon name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                          ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:08:44.910Z - Hash: 291099737a5b013e - Time: 370ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:08:49.685Z - Hash: 14ee5cca4b3d8df1 - Time: 495ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:08:56.655Z - Hash: 83f57137e8751cf1 - Time: 451ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:15.417Z - Hash: 4d370c0d08560111 - Time: 467ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.92 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:17.294Z - Hash: 2f0a40f81de80772 - Time: 368ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:17.951Z - Hash: b7394066fe0e7383 - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:20.745Z - Hash: 27e5d9378550deda - Time: 259ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m96[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                                               ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.11 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:22.759Z - Hash: 281dfcb3600505f6 - Time: 396ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:23.453Z - Hash: 8883185b9e14984b - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.11 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:37.272Z - Hash: c50cef4406c62523 - Time: 411ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:09:40.515Z - Hash: a9483a19353fd082 - Time: 440ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.77 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:11.759Z - Hash: 7d198331e8e3d81c - Time: 439ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:14.437Z - Hash: a9483a19353fd082 - Time: 349ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.11 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:41.980Z - Hash: 65a674bb8e230c5b - Time: 469ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.11 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:42.656Z - Hash: 954d314f41875fa5 - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:43.234Z - Hash: 27e5d9378550deda - Time: 270ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m96[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                                               ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:43.928Z - Hash: ca0397156b101cc0 - Time: 370ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:10:44.616Z - Hash: ca0397156b101cc0 - Time: 358ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:49.610Z - Hash: 4482711dbebd6c28 - Time: 305ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m104[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-i ><ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                                                       ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-title". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m13[0m     </ion-title>
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:10:50.310Z - Hash: 4229315bef62711f - Time: 249ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m106[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-ite ><ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                                                         ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-title". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m13[0m     </ion-title>
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:10:50.836Z - Hash: 2e81e2b63a60283f - Time: 230ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m107[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-item ><ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-button>
+[7m [0m [91m                                                                                                          ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-title". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m13[0m     </ion-title>
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:10:52.302Z - Hash: bd74f3b5636b405d - Time: 225ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m107[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-i". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-item ><ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-i>
+[7m [0m [91m                                                                                                          ~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-title". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m13[0m     </ion-title>
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:52.950Z - Hash: 06cb3e2b41d547a3 - Time: 364ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:10:53.627Z - Hash: a2a2c8b441e35320 - Time: 351ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:11:12.428Z - Hash: 3973deac697c85ae - Time: 451ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:11:13.322Z - Hash: ba1d7e8ffbff39a1 - Time: 478ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 12.91 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:11:23.067Z - Hash: e23def717f244b5f - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:11:23.870Z - Hash: a2a2c8b441e35320 - Time: 354ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:33.052Z - Hash: 7e5836425758a634 - Time: 393ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m96[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-item". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m     <ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon></ion-item>
+[7m [0m [91m                                                                                               ~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:34.704Z - Hash: a9483a19353fd082 - Time: 393ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:39.797Z - Hash: ad1545fec8f58260 - Time: 348ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:41.264Z - Hash: 34cdc2d720ea495f - Time: 435ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.11 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:41.976Z - Hash: 19e3b53b13175de1 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 11.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:46.104Z - Hash: 789b210d191f84bb - Time: 327ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:12:47.588Z - Hash: 8f656d28f266efba - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.04 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:18.245Z - Hash: 17a30f15d6e82ca8 - Time: 482ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:18.837Z - Hash: 1ba58cfc1651e8ab - Time: 280ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mOpening tag "but" not terminated.
+
+[7m6[0m       <but<ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon>
+[7m [0m [91m      ~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:14:19.341Z - Hash: fd318defaedc8648 - Time: 215ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mOpening tag "butt" not terminated.
+
+[7m6[0m       <butt<ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon>
+[7m [0m [91m      ~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:14:20.308Z - Hash: 942dd6b9e8f96f60 - Time: 227ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mOpening tag "butto" not terminated.
+
+[7m6[0m       <butto<ion-icon (click)="presentPopover($event)" name="information-circle" slot="end"></ion-icon>
+[7m [0m [91m      ~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:20.957Z - Hash: 03400eed8cc19aae - Time: 336ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.12 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:21.559Z - Hash: fcb6e8177707f773 - Time: 312ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:25.499Z - Hash: 145bc4df55dc9269 - Time: 276ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "ion-title". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m13[0m     </ion-title>
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:26.381Z - Hash: 798e45f360111477 - Time: 402ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.06 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:44.544Z - Hash: 7eace5efb6128d23 - Time: 539ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:45.206Z - Hash: eab6384f557f1ee9 - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:45.857Z - Hash: 1732f33d9bf29d01 - Time: 338ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:47.556Z - Hash: cf3eb1a00b8d51fe - Time: 469ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.07 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:48.445Z - Hash: 67806358a92a2974 - Time: 532ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:49.121Z - Hash: f8e006e8b201ddf4 - Time: 378ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:49.844Z - Hash: 2a19d65a3c66f788 - Time: 364ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:14:50.560Z - Hash: acbd890445c50401 - Time: 396ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:03.847Z - Hash: 6137de11e9ddfd3a - Time: 382ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:04.670Z - Hash: 8af1b7cc6e642861 - Time: 481ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:05.442Z - Hash: 2c174dbce3d67eb5 - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.08 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:06.117Z - Hash: b60f4d6fcb3992e8 - Time: 340ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.09 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:10.287Z - Hash: fd2f86c012ea0616 - Time: 325ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:13.128Z - Hash: 8203a3d07913554f - Time: 371ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+7 │     he
+  │       ^
+  ╵
+  src\app\tab2\tab2.page.scss 7:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:13.807Z - Hash: 1f104d28e9a2b637 - Time: 280ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+7 │     hei
+  │        ^
+  ╵
+  src\app\tab2\tab2.page.scss 7:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:15:14.313Z - Hash: e9218b08579f8b12 - Time: 230ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+7 │     height: ;
+  │             ^
+  ╵
+  src\app\tab2\tab2.page.scss 7:13  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.13 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:17.835Z - Hash: a080aa27ff82ac3a - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.14 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:18.474Z - Hash: 6154c0d75835517b - Time: 334ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.13 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:21.516Z - Hash: b17d86b6791b4383 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.14 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:22.249Z - Hash: de6428f9556c007e - Time: 359ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.15 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:27.318Z - Hash: 7ffc70cae9445429 - Time: 320ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:27.933Z - Hash: 4780cc5354ba61f0 - Time: 243ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     wid
+  │        ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:28.529Z - Hash: abbdda2433b1a6ef - Time: 236ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     width: ;
+  │            ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:12  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.18 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:29.349Z - Hash: 74c93794add30f6f - Time: 449ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.19 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:30.229Z - Hash: 4ccb0c38e60de7fa - Time: 386ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.19 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:37.629Z - Hash: 027428ad777b231f - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:38.284Z - Hash: bed6d874984bb5d7 - Time: 367ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:38.992Z - Hash: 75c3d2fc82105d0c - Time: 391ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:39.737Z - Hash: b9e54d9477806e92 - Time: 363ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:40.404Z - Hash: 32d20555599d41dd - Time: 339ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:42.661Z - Hash: 8b2772f863a70ed9 - Time: 396ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.23 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:43.459Z - Hash: 1fe0cdf6dee789ed - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.23 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:44.116Z - Hash: d28346328a7dd140 - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.17 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:48.933Z - Hash: 21780ffcd79ab254 - Time: 336ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:49.709Z - Hash: 89aff9713e10135d - Time: 476ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:50.542Z - Hash: 6161fdfa4233e014 - Time: 427ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:51.178Z - Hash: fb0366b32809d563 - Time: 315ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:52.983Z - Hash: f958b11cf1a36b83 - Time: 451ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:53.695Z - Hash: 420bf0e45869c5a6 - Time: 392ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:57.964Z - Hash: f1b35b3f4d557c8c - Time: 348ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:58.639Z - Hash: 968cac8cf95bea2e - Time: 372ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:15:59.559Z - Hash: f844b67f32ef8b6f - Time: 391ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:00.197Z - Hash: a36c49da9a79a0a2 - Time: 328ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:07.069Z - Hash: de6d0575dc177428 - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.16 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:08.390Z - Hash: 49ea2cba2953347d - Time: 367ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.17 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:17.621Z - Hash: 1306fc2f4f826756 - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:18.173Z - Hash: b8fe465f95d65697 - Time: 257ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     back
+  │         ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:18.707Z - Hash: f3e604d225544c14 - Time: 234ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     background-color: ;
+  │                       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:16:19.245Z - Hash: f3e604d225544c14 - Time: 232ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     background-color: ;
+  │                       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:21.278Z - Hash: c9a3a975db6e89f8 - Time: 427ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:21.997Z - Hash: 2dd632f601450b6a - Time: 367ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.32 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:22.559Z - Hash: 97166d1e8c395267 - Time: 260ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     background-color: ;
+  │                       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.32 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:23.103Z - Hash: f500989bbaa91290 - Time: 233ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     background-color: ;
+  │                       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:24.739Z - Hash: bb46d8727d438226 - Time: 375ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:25.373Z - Hash: 765a01f5b3155627 - Time: 336ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.26 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:27.273Z - Hash: d36e434a649b1114 - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:30.340Z - Hash: 765a01f5b3155627 - Time: 340ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:31.134Z - Hash: bb46d8727d438226 - Time: 388ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.32 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:32.578Z - Hash: f500989bbaa91290 - Time: 276ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     background-color: ;
+  │                       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:33.278Z - Hash: e57ee6be19d264da - Time: 388ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:33.969Z - Hash: 94269c4823fef11d - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.26 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:34.710Z - Hash: 4ef3c77866b72570 - Time: 393ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.26 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:38.341Z - Hash: 012454035166cb97 - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:39.120Z - Hash: 3af624bd107042d8 - Time: 388ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:39.818Z - Hash: 6a21c885693beb23 - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:40.549Z - Hash: eefa9d724934b66e - Time: 393ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.24 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:41.292Z - Hash: 3af624bd107042d8 - Time: 340ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:16:41.962Z - Hash: 3af624bd107042d8 - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.30 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:16:42.654Z - Hash: 8b3ec2555c1ee6d5 - Time: 339ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.17 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:07.647Z - Hash: 44d6f60bac5ac02b - Time: 398ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:17:08.397Z - Hash: 44d6f60bac5ac02b - Time: 367ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.18 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:15.406Z - Hash: 036475dc4d129b87 - Time: 365ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:15.942Z - Hash: 52938a29133e5e00 - Time: 248ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+11 │ .
+   │  ^
+   ╵
+  src\app\tab2\tab2.page.scss 11:2  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.28 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:16.541Z - Hash: a19ea97304037d99 - Time: 251ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+11 │ .questionMark
+   │              ^
+   ╵
+  src\app\tab2\tab2.page.scss 11:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.20 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:17.442Z - Hash: 38182dc4b21444dd - Time: 380ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.22 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:18.194Z - Hash: e5a191ed5b565434 - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:20.954Z - Hash: c8aa763cda57d3f3 - Time: 300ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+12 │     b
+   │      ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.29 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:21.452Z - Hash: 0dfcc381850eb391 - Time: 224ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+12 │     back
+   │         ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:17:21.974Z - Hash: 6d1c83c6a306d780 - Time: 220ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+   ╷
+12 │     background-color: ;
+   │                       ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:17:22.471Z - Hash: 6d1c83c6a306d780 - Time: 226ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+   ╷
+12 │     background-color: ;
+   │                       ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:23  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.34 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:23.299Z - Hash: f917a3e7b7146c0d - Time: 358ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.36 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:23.974Z - Hash: 9d14f28756408e77 - Time: 383ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.36 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:17:24.736Z - Hash: 07bbdc2552eef8c1 - Time: 348ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:19:39.875Z - Hash: e2133efc60700e0e - Time: 503ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:19:46.956Z - Hash: 5282a08e100c351e - Time: 398ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:19:49.199Z - Hash: 0a4c8f6aa8fc0b57 - Time: 375ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:19:50.956Z - Hash: 4172a7b77ef6a281 - Time: 416ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:19:52.638Z - Hash: de4c40430290c024 - Time: 372ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:14.746Z - Hash: a61e36691f9909cf - Time: 441ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:18.830Z - Hash: 095c07195f4c943f - Time: 447ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:19.480Z - Hash: f778de03f59c59c6 - Time: 357ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:20.155Z - Hash: 263796b1688450c1 - Time: 352ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:21.190Z - Hash: 583083a2a6fb10e4 - Time: 436ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:30.004Z - Hash: a6b508258fae39a6 - Time: 336ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:30.742Z - Hash: 2acf08254f919bc1 - Time: 425ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:20:37.273Z - Hash: 2acf08254f919bc1 - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:39.165Z - Hash: 890aad8abb0b5be8 - Time: 254ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m87[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m       <ion-icon (click)="presentPopover($event)" name="information-circle"></ion-icon></button>
+[7m [0m [91m                                                                                      ~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.68 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:40.937Z - Hash: 796806e67659f836 - Time: 400ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module |  6.61 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:44.026Z - Hash: 890aad8abb0b5be8 - Time: 303ms
+
+Error: [96msrc/app/tab2/tab2.page.html[0m:[93m6[0m:[93m87[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m6[0m       <ion-icon (click)="presentPopover($event)" name="information-circle"></ion-icon></button>
+[7m [0m [91m                                                                                      ~~~~~~~~~[0m
+
+  [96msrc/app/tab2/tab2.page.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'tab2.page.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component Tab2Page.
+
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:44.875Z - Hash: 2acf08254f919bc1 - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:53.455Z - Hash: 62ee757c2da5dcc2 - Time: 417ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:54.126Z - Hash: 602c6d8073c263b7 - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:54.943Z - Hash: dac5e5edae998efa - Time: 305ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected digit.
+  ╷
+7 │     width: 1.rem;
+  │              ^
+  ╵
+  src\app\tab2\tab2.page.scss 7:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:55.622Z - Hash: c07f7b5321a83c27 - Time: 358ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:59.085Z - Hash: dfe4e9ed4f768493 - Time: 347ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:20:59.746Z - Hash: 54481c989f766b56 - Time: 352ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:00.682Z - Hash: 26833b028cd50bc7 - Time: 468ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:01.504Z - Hash: f50f206aa546b01e - Time: 350ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:04.583Z - Hash: 201d010ba93ef299 - Time: 271ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected digit.
+  ╷
+6 │     height: 1.rem;
+  │               ^
+  ╵
+  src\app\tab2\tab2.page.scss 6:15  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.66 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:05.148Z - Hash: fc01b732278464f0 - Time: 283ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected digit.
+  ╷
+7 │     width: 1.rem;
+  │              ^
+  ╵
+  src\app\tab2\tab2.page.scss 7:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:05.797Z - Hash: 602c6d8073c263b7 - Time: 352ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:06.432Z - Hash: 2acf08254f919bc1 - Time: 349ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:21:07.234Z - Hash: 2acf08254f919bc1 - Time: 697ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:13.853Z - Hash: 602c6d8073c263b7 - Time: 343ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:21:14.495Z - Hash: 602c6d8073c263b7 - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:15.480Z - Hash: ee3101b705c36a3b - Time: 432ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:21:16.235Z - Hash: ee3101b705c36a3b - Time: 340ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.64 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:24.265Z - Hash: 0ae92f8c2daed23a - Time: 293ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     ma
+  │       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.64 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:24.792Z - Hash: 90fcbab8bcfee484 - Time: 252ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     mar
+  │        ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:21:25.843Z - Hash: b2a659f2cc9abf45 - Time: 244ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     margin-top: ;
+  │                 ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:17  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:28.310Z - Hash: b2e9df1a65b6eb17 - Time: 358ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:28.987Z - Hash: 220e967b35a60fd4 - Time: 378ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:34.395Z - Hash: 92056372027ecce1 - Time: 390ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:35.029Z - Hash: dc1d8421f38e4ff6 - Time: 332ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:39.029Z - Hash: ccb3e4d630af0615 - Time: 353ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:40.085Z - Hash: 93f7be5e62bb415a - Time: 411ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:42.185Z - Hash: 8458db278112ac22 - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.65 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:43.480Z - Hash: ebcce486b477ce5a - Time: 294ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+12 │     ma
+   │       ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.65 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:44.043Z - Hash: fd45a53fd113c6cb - Time: 279ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+12 │     mar
+   │        ^
+   ╵
+  src\app\tab2\tab2.page.scss 12:8  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:44.738Z - Hash: 3e2579f31e9ca184 - Time: 381ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.72 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:45.562Z - Hash: 690da53357a6e971 - Time: 378ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:46.221Z - Hash: ee3101b705c36a3b - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.65 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:46.904Z - Hash: b011ab3f1ed28bf3 - Time: 270ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     padd
+  │         ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.65 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:47.458Z - Hash: 2c0c74344593940a - Time: 245ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     padding: ;
+  │              ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:21:47.990Z - Hash: 2c0c74344593940a - Time: 236ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     padding: ;
+  │              ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:14  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.77 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:49.773Z - Hash: da553fc2d6edafbd - Time: 394ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:50.609Z - Hash: 9c7adda28d998f1b - Time: 385ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:54.492Z - Hash: a6dcf89e1657e1f9 - Time: 364ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:55.169Z - Hash: d2a7ca3726bf0c4b - Time: 374ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:55.870Z - Hash: 51c8e72d77e2ec76 - Time: 380ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:21:56.674Z - Hash: 8315645e6839ef41 - Time: 360ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:01.929Z - Hash: 2476d16c74555c14 - Time: 344ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.78 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:02.557Z - Hash: 324fc67200040354 - Time: 333ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.73 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:11.879Z - Hash: ee3101b705c36a3b - Time: 366ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.80 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:12.563Z - Hash: 03c7fc5071c9e8c8 - Time: 353ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.80 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:13.224Z - Hash: f59c17b4d0b4881c - Time: 339ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:16.384Z - Hash: 1cfadd489cd3df5f - Time: 364ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.64 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:24.677Z - Hash: 2b9866af33e615c8 - Time: 299ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     pa
+  │       ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:7  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.64 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:25.204Z - Hash: 3f84b8544fb45425 - Time: 232ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     padd
+  │         ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:22:25.713Z - Hash: 3f84b8544fb45425 - Time: 226ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     padd
+  │         ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:9  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 14.11 kB |
+
+66 unchanged chunks
+
+Build at: 2023-11-29T21:22:26.297Z - Hash: dcf9f5a9567e726a - Time: 231ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+8 │     padding-top: ;
+  │                  ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:18  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.79 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:27.194Z - Hash: f60a9b613d010eb6 - Time: 360ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.80 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:27.853Z - Hash: a1c36ee3c924c1d0 - Time: 346ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.80 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:40.004Z - Hash: 5480a3f7b2f801e0 - Time: 361ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.64 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:40.983Z - Hash: a5a6ad50d905765e - Time: 501ms
+
+./src/app/tab2/tab2.page.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+8 │     p
+  │      ^
+  ╵
+  src\app\tab2\tab2.page.scss 8:6  root stylesheet
+
+
+
+× Failed to compile.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files            | Names            | Raw Size
+runtime.js                     | runtime          | 14.11 kB |
+
+Lazy Chunk Files               | Names            | Raw Size
+src_app_tab2_tab2_module_ts.js | tab2-tab2-module | 13.74 kB |
+
+65 unchanged chunks
+
+Build at: 2023-11-29T21:22:41.629Z - Hash: 3f9f6564f1c5f8fd - Time: 344ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-11-29T21:22:42.299Z - Hash: 3f9f6564f1c5f8fd - Time: 359ms
+
+√ Compiled successfully.
