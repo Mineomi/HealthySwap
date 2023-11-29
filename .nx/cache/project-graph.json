@@ -1570,6 +1570,15 @@
         "hash": "sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw=="
       }
     },
+    "npm:@capacitor/android": {
+      "type": "npm",
+      "name": "npm:@capacitor/android",
+      "data": {
+        "version": "5.5.1",
+        "packageName": "@capacitor/android",
+        "hash": "sha512-WTnPnpaEvTtaEtTNRbh06Y1afF7A4plY/4uajAL0WW8tdR1FxieadF357yKGiAT6CudI/B+eOu6rxn6qWuphKg=="
+      }
+    },
     "npm:@capacitor/app": {
       "type": "npm",
       "name": "npm:@capacitor/app",
@@ -12787,6 +12796,11 @@
       },
       {
         "source": "app",
+        "target": "npm:@capacitor/android",
+        "type": "static"
+      },
+      {
+        "source": "app",
         "target": "npm:@capacitor/app",
         "type": "static"
       },
@@ -12813,6 +12827,11 @@
       {
         "source": "app",
         "target": "npm:@ionic/angular",
+        "type": "static"
+      },
+      {
+        "source": "app",
+        "target": "npm:@jcesarmobile/ssl-skip",
         "type": "static"
       },
       {
@@ -16166,6 +16185,13 @@
       {
         "source": "npm:@babel/types",
         "target": "npm:to-fast-properties",
+        "type": "static"
+      }
+    ],
+    "npm:@capacitor/android": [
+      {
+        "source": "npm:@capacitor/android",
+        "target": "npm:@capacitor/core",
         "type": "static"
       }
     ],
