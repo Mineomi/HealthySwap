@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild  } from '@angular/core';
 
 @Component({
   selector: 'app-tab2',
@@ -27,6 +27,16 @@ export class Tab2Page {
 
   round(num: number, fractionDigits: number): number {
     return Number(num.toFixed(fractionDigits))
+}
+
+
+@ViewChild('popover') popover :any;
+
+isOpen = false;
+
+presentPopover(e: Event) {
+  this.popover.event = e;
+  this.isOpen = true;
 }
 
   constructor() {}
