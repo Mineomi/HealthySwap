@@ -11419,8 +11419,10 @@
           "hash": "4664556114322093609"
         },
         {
-          "file": ".nx/cache/cloud/2311.09.8.hotfix6/index.js",
-          "hash": "18049491202821936606",
+
+          "file": ".nx/cache/cloud/2312.01.6/index.js",
+          "hash": "17807890174160981006",
+
           "deps": [
             "npm:os",
             "npm:assert",
@@ -11500,8 +11502,10 @@
           ]
         },
         {
-          "file": ".nx/cache/cloud/2311.09.8.hotfix6/lib/daemon/process-run-end.js",
-          "hash": "11555339647577552919",
+
+          "file": ".nx/cache/cloud/2312.01.6/lib/daemon/process-run-end.js",
+          "hash": "9178465496593350990",
+
           "deps": [
             "npm:path",
             "npm:os",
@@ -11577,8 +11581,10 @@
           ]
         },
         {
-          "file": ".nx/cache/cloud/2311.09.8.hotfix6/lib/heartbeat/heartbeat-process.js",
-          "hash": "17643535018611076118",
+
+          "file": ".nx/cache/cloud/2312.01.6/lib/heartbeat/heartbeat-process.js",
+          "hash": "12195602358968166578",
+
           "deps": [
             "npm:os",
             "npm:fs",
@@ -11642,32 +11648,34 @@
           ]
         },
         {
-          "file": ".nx/cache/cloud/2311.09.8.hotfix6/package.json",
-          "hash": "11141123415005008193"
+
+          "file": ".nx/cache/cloud/2312.01.6/package.json",
+          "hash": "11687418979936424737"
         },
         {
           "file": ".nx/cache/cloud/verify.lock",
-          "hash": "13942483003535347051"
+          "hash": "5246073110926964312"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "13205852667055292036"
+          "hash": "11528658145411227874"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "12769527809173534358"
+          "hash": "9532873666713249271"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "1633931470320865816"
+          "hash": "7023464178463497775"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "4585460597644831523"
+          "hash": "14550282944962377473"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "4511090403117907257"
+          "hash": "15858662605481334330"
+
         },
         {
           "file": ".nx/cache/project-graph.json~3a84fdf8",
@@ -11684,6 +11692,12 @@
         {
           "file": ".nx/cache/terminalOutputs/11287213986576882543",
           "hash": "9671435084989134374"
+
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/13207533754833224659",
+          "hash": "2121941167280880782"
+
         },
         {
           "file": ".nx/cache/terminalOutputs/1332261734279927889",
@@ -11700,6 +11714,10 @@
         {
           "file": ".nx/cache/terminalOutputs/15448247453555368079",
           "hash": "7968842952636176819"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15541755317436319831",
+          "hash": "12430917167040647024"
         },
         {
           "file": ".nx/cache/terminalOutputs/16384642737850857745",
@@ -11727,39 +11745,41 @@
         },
         {
           "file": "android/.gitignore",
-          "hash": "575352867867564950"
+
+          "hash": "16088808965373471785"
         },
         {
           "file": "android/app/.gitignore",
-          "hash": "5242844812731129648"
+          "hash": "3800628318224317187"
         },
         {
           "file": "android/app/build.gradle",
-          "hash": "3184173191601308496"
+          "hash": "4462205925370081679"
         },
         {
           "file": "android/app/capacitor.build.gradle",
-          "hash": "3142292225371786288"
+          "hash": "7536827514637745726"
         },
         {
           "file": "android/app/proguard-rules.pro",
-          "hash": "7009836019969430653"
+          "hash": "16319704539319765030"
         },
         {
           "file": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
-          "hash": "17425728664178362580"
+          "hash": "1280125089554780403"
         },
         {
           "file": "android/app/src/main/AndroidManifest.xml",
-          "hash": "1154185190241325410"
+          "hash": "15143078514206279353"
         },
         {
           "file": "android/app/src/main/java/io/ionic/starter/MainActivity.java",
-          "hash": "339761706537814219"
+          "hash": "18189106575645248423"
         },
         {
           "file": "android/app/src/main/res/drawable/ic_launcher_background.xml",
-          "hash": "15966361446536358248"
+          "hash": "4055909962711590499"
+
         },
         {
           "file": "android/app/src/main/res/drawable/splash.png",
@@ -11807,19 +11827,21 @@
         },
         {
           "file": "android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
-          "hash": "13026793227704206803"
+
+          "hash": "16602625396055746895"
         },
         {
           "file": "android/app/src/main/res/layout/activity_main.xml",
-          "hash": "14482775682429207470"
+          "hash": "13540211242698942768"
         },
         {
           "file": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
-          "hash": "17629717949118964408"
+          "hash": "16176709064596667284"
         },
         {
           "file": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
-          "hash": "17629717949118964408"
+          "hash": "16176709064596667284"
+
         },
         {
           "file": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
@@ -11883,31 +11905,33 @@
         },
         {
           "file": "android/app/src/main/res/values/ic_launcher_background.xml",
-          "hash": "13427459772988618231"
+
+          "hash": "9482601953118464086"
         },
         {
           "file": "android/app/src/main/res/values/strings.xml",
-          "hash": "2055516791245004158"
+          "hash": "3554162568501797486"
         },
         {
           "file": "android/app/src/main/res/values/styles.xml",
-          "hash": "17368100401790988459"
+          "hash": "17918612613785874663"
         },
         {
           "file": "android/app/src/main/res/xml/file_paths.xml",
-          "hash": "7801520331752314468"
+          "hash": "14753087816109454837"
         },
         {
           "file": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
-          "hash": "14058877953148054104"
+          "hash": "11856600006954306230"
         },
         {
           "file": "android/build.gradle",
-          "hash": "5528629273169236741"
+          "hash": "15247024166514751308"
         },
         {
           "file": "android/capacitor.settings.gradle",
-          "hash": "18326273570782117599"
+          "hash": "14399391684823523704"
+
         },
         {
           "file": "android/gradle/wrapper/gradle-wrapper.jar",
@@ -11915,15 +11939,17 @@
         },
         {
           "file": "android/gradle/wrapper/gradle-wrapper.properties",
-          "hash": "3961266434999151656"
+
+          "hash": "10340632815092109200"
         },
         {
           "file": "android/gradle.properties",
-          "hash": "212067423845523566"
+          "hash": "2024862945433011340"
         },
         {
           "file": "android/gradlew",
-          "hash": "14610550044488398622"
+          "hash": "9896656627243825026"
+
         },
         {
           "file": "android/gradlew.bat",
@@ -11931,11 +11957,13 @@
         },
         {
           "file": "android/settings.gradle",
-          "hash": "3110832477401759761"
+
+          "hash": "426215723856156424"
         },
         {
           "file": "android/variables.gradle",
-          "hash": "11961938299788973132"
+          "hash": "9467210284462474397"
+
         },
         {
           "file": "capacitor.config.ts",
@@ -12154,7 +12182,9 @@
         },
         {
           "file": "src/app/tab1/tab1.page.html",
-          "hash": "17966785150325228860"
+
+          "hash": "8714438727199755243"
+
         },
         {
           "file": "src/app/tab1/tab1.page.scss",
@@ -12170,7 +12200,9 @@
         },
         {
           "file": "src/app/tab1/tab1.page.ts",
-          "hash": "9003853146913455337",
+
+          "hash": "5230331029672409654",
+
           "deps": [
             "npm:@angular/core"
           ]
@@ -12195,11 +12227,13 @@
         },
         {
           "file": "src/app/tab2/tab2.page.html",
-          "hash": "16178151525193751781"
+
+          "hash": "18344692118613709332"
+
         },
         {
           "file": "src/app/tab2/tab2.page.scss",
-          "hash": "17624649841722997133"
+          "hash": "15433939064477894834"
         },
         {
           "file": "src/app/tab2/tab2.page.spec.ts",
@@ -12211,7 +12245,9 @@
         },
         {
           "file": "src/app/tab2/tab2.page.ts",
-          "hash": "16975068262705963842",
+
+          "hash": "4761021938481228646",
+
           "deps": [
             "npm:@angular/core"
           ]
@@ -12236,11 +12272,11 @@
         },
         {
           "file": "src/app/tab3/tab3.page.html",
-          "hash": "1640442279298071434"
+          "hash": "11575986725451223848"
         },
         {
           "file": "src/app/tab3/tab3.page.scss",
-          "hash": "3244421341483603138"
+          "hash": "1830405456928155881"
         },
         {
           "file": "src/app/tab3/tab3.page.spec.ts",
@@ -12252,7 +12288,7 @@
         },
         {
           "file": "src/app/tab3/tab3.page.ts",
-          "hash": "9950996585213729156",
+          "hash": "15042239122894055023",
           "deps": [
             "npm:@angular/core"
           ]
@@ -12277,7 +12313,9 @@
         },
         {
           "file": "src/app/tabs/tabs.page.html",
-          "hash": "17620891945117584177"
+
+          "hash": "17061496353440549100"
+
         },
         {
           "file": "src/app/tabs/tabs.page.scss",
@@ -12292,16 +12330,44 @@
         },
         {
           "file": "src/app/tabs/tabs.page.ts",
-          "hash": "15132660516945422335",
+          "hash": "4427011875017495753",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
+
+          "file": "src/assets/Indian burger with turkey.jpg",
+          "hash": "3027722181215240679"
+        },
+        {
+          "file": "src/assets/Indianwrapwithturkey.jpg",
+          "hash": "11554847975137712546"
+        },
+        {
+          "file": "src/assets/MilkSmoothiewithFruit.jpg",
+          "hash": "6019425286940043241"
+        },
+        {
+          "file": "src/assets/Sweetpotatofries.jpg",
+          "hash": "18054537845353374456"
+        },
+        {
+
           "file": "src/assets/baconfries.jpg",
           "hash": "16359340297125374630"
         },
         {
+
+          "file": "src/assets/bakedchickenpieces.jpg",
+          "hash": "15268880934436650314"
+        },
+        {
+          "file": "src/assets/bakedpotatoeswithherbs.jpg",
+          "hash": "11886875683580199756"
+        },
+        {
+
           "file": "src/assets/cheeseburger.jpg",
           "hash": "12718451077151220047"
         },
@@ -12314,6 +12380,12 @@
           "hash": "8095172709000563525"
         },
         {
+
+          "file": "src/assets/chickensaladburger.jpg",
+          "hash": "8285070023648025055"
+        },
+        {
+
           "file": "src/assets/donut.jpg",
           "hash": "12460560335843539394"
         },
@@ -12322,6 +12394,12 @@
           "hash": "11480513350313274140"
         },
         {
+
+          "file": "src/assets/hamburger.jpg",
+          "hash": "18096404733432275673"
+        },
+        {
+
           "file": "src/assets/hotdog.jpg",
           "hash": "12185760598850237729"
         },
@@ -12362,6 +12440,20 @@
           "hash": "1344063790860138261"
         },
         {
+
+          "file": "src/assets/sparklingwaterwithfruit.jpg",
+          "hash": "15296265191488426633"
+        },
+        {
+          "file": "src/assets/wholegraindonut.jpg",
+          "hash": "1803996290930476996"
+        },
+        {
+          "file": "src/assets/wholegrainpizza.jpg",
+          "hash": "820479618374772071"
+        },
+        {
+
           "file": "src/environments/environment.prod.ts",
           "hash": "5406836414239361753"
         },

@@ -158,4 +158,10 @@ export class Tab1Page {
     this.isOpen[index] = !this.isOpen[index];
   }
 
+  closeAllLists() {
+    this.isOpen.forEach((value, index) => {
+      this.isOpen[index] = false;
+    });
+  }
+
 }
