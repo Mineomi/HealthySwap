@@ -11419,8 +11419,10 @@
           "hash": "4664556114322093609"
         },
         {
+
           "file": ".nx/cache/cloud/2312.01.6/index.js",
           "hash": "17807890174160981006",
+
           "deps": [
             "npm:os",
             "npm:assert",
@@ -11500,8 +11502,10 @@
           ]
         },
         {
+
           "file": ".nx/cache/cloud/2312.01.6/lib/daemon/process-run-end.js",
           "hash": "9178465496593350990",
+
           "deps": [
             "npm:path",
             "npm:os",
@@ -11577,8 +11581,10 @@
           ]
         },
         {
+
           "file": ".nx/cache/cloud/2312.01.6/lib/heartbeat/heartbeat-process.js",
           "hash": "12195602358968166578",
+
           "deps": [
             "npm:os",
             "npm:fs",
@@ -11642,6 +11648,7 @@
           ]
         },
         {
+
           "file": ".nx/cache/cloud/2312.01.6/package.json",
           "hash": "11687418979936424737"
         },
@@ -11668,6 +11675,7 @@
         {
           "file": ".nx/cache/project-graph.json",
           "hash": "15858662605481334330"
+
         },
         {
           "file": ".nx/cache/project-graph.json~3a84fdf8",
@@ -11684,10 +11692,12 @@
         {
           "file": ".nx/cache/terminalOutputs/11287213986576882543",
           "hash": "9671435084989134374"
+
         },
         {
           "file": ".nx/cache/terminalOutputs/13207533754833224659",
           "hash": "2121941167280880782"
+
         },
         {
           "file": ".nx/cache/terminalOutputs/1332261734279927889",
@@ -11735,6 +11745,7 @@
         },
         {
           "file": "android/.gitignore",
+
           "hash": "16088808965373471785"
         },
         {
@@ -11768,6 +11779,7 @@
         {
           "file": "android/app/src/main/res/drawable/ic_launcher_background.xml",
           "hash": "4055909962711590499"
+
         },
         {
           "file": "android/app/src/main/res/drawable/splash.png",
@@ -11815,6 +11827,7 @@
         },
         {
           "file": "android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+
           "hash": "16602625396055746895"
         },
         {
@@ -11828,6 +11841,7 @@
         {
           "file": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
           "hash": "16176709064596667284"
+
         },
         {
           "file": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
@@ -11891,6 +11905,7 @@
         },
         {
           "file": "android/app/src/main/res/values/ic_launcher_background.xml",
+
           "hash": "9482601953118464086"
         },
         {
@@ -11916,6 +11931,7 @@
         {
           "file": "android/capacitor.settings.gradle",
           "hash": "14399391684823523704"
+
         },
         {
           "file": "android/gradle/wrapper/gradle-wrapper.jar",
@@ -11923,6 +11939,7 @@
         },
         {
           "file": "android/gradle/wrapper/gradle-wrapper.properties",
+
           "hash": "10340632815092109200"
         },
         {
@@ -11932,6 +11949,7 @@
         {
           "file": "android/gradlew",
           "hash": "9896656627243825026"
+
         },
         {
           "file": "android/gradlew.bat",
@@ -11939,11 +11957,13 @@
         },
         {
           "file": "android/settings.gradle",
+
           "hash": "426215723856156424"
         },
         {
           "file": "android/variables.gradle",
           "hash": "9467210284462474397"
+
         },
         {
           "file": "capacitor.config.ts",
@@ -12162,7 +12182,9 @@
         },
         {
           "file": "src/app/tab1/tab1.page.html",
+
           "hash": "8714438727199755243"
+
         },
         {
           "file": "src/app/tab1/tab1.page.scss",
@@ -12178,7 +12200,9 @@
         },
         {
           "file": "src/app/tab1/tab1.page.ts",
+
           "hash": "5230331029672409654",
+
           "deps": [
             "npm:@angular/core"
           ]
@@ -12203,7 +12227,9 @@
         },
         {
           "file": "src/app/tab2/tab2.page.html",
+
           "hash": "18344692118613709332"
+
         },
         {
           "file": "src/app/tab2/tab2.page.scss",
@@ -12219,7 +12245,9 @@
         },
         {
           "file": "src/app/tab2/tab2.page.ts",
+
           "hash": "4761021938481228646",
+
           "deps": [
             "npm:@angular/core"
           ]
@@ -12285,7 +12313,9 @@
         },
         {
           "file": "src/app/tabs/tabs.page.html",
+
           "hash": "17061496353440549100"
+
         },
         {
           "file": "src/app/tabs/tabs.page.scss",
@@ -12306,6 +12336,7 @@
           ]
         },
         {
+
           "file": "src/assets/Indian burger with turkey.jpg",
           "hash": "3027722181215240679"
         },
@@ -12322,10 +12353,12 @@
           "hash": "18054537845353374456"
         },
         {
+
           "file": "src/assets/baconfries.jpg",
           "hash": "16359340297125374630"
         },
         {
+
           "file": "src/assets/bakedchickenpieces.jpg",
           "hash": "15268880934436650314"
         },
@@ -12334,6 +12367,7 @@
           "hash": "11886875683580199756"
         },
         {
+
           "file": "src/assets/cheeseburger.jpg",
           "hash": "12718451077151220047"
         },
@@ -12346,10 +12380,12 @@
           "hash": "8095172709000563525"
         },
         {
+
           "file": "src/assets/chickensaladburger.jpg",
           "hash": "8285070023648025055"
         },
         {
+
           "file": "src/assets/donut.jpg",
           "hash": "12460560335843539394"
         },
@@ -12358,10 +12394,12 @@
           "hash": "11480513350313274140"
         },
         {
+
           "file": "src/assets/hamburger.jpg",
           "hash": "18096404733432275673"
         },
         {
+
           "file": "src/assets/hotdog.jpg",
           "hash": "12185760598850237729"
         },
@@ -12402,6 +12440,7 @@
           "hash": "1344063790860138261"
         },
         {
+
           "file": "src/assets/sparklingwaterwithfruit.jpg",
           "hash": "15296265191488426633"
         },
@@ -12414,6 +12453,7 @@
           "hash": "820479618374772071"
         },
         {
+
           "file": "src/environments/environment.prod.ts",
           "hash": "5406836414239361753"
         },

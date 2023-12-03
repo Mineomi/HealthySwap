@@ -1,7 +1,9 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
+
       Dzienne zapotrzebowanie kaloryczne
+
 
       <button class="questionMark"><ion-icon (click)="presentPopover($event)" name="information-circle"></ion-icon></button>
       <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
